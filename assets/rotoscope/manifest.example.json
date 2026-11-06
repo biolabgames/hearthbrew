@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "reference_footage": "REQUIRED: identify the filmed human performance traced for these sheets",
+  "clips": {
+    "idle": {"sheet": "res://assets/rotoscope/idle.png", "source_clip": "idle-source.mp4", "frame_size": [720, 360], "columns": 4, "frame_count": 12, "fps": 12, "loop": true},
+    "pour": {"sheet": "res://assets/rotoscope/pour.png", "source_clip": "pour-source.mp4", "frame_size": [720, 360], "columns": 4, "frame_count": 48, "fps": 12, "loop": false, "events": {"grasp": 8, "pour_start": 18, "pour_end": 30, "release": 43}},
+    "stir": {"sheet": "res://assets/rotoscope/stir.png", "source_clip": "stir-source.mp4", "frame_size": [720, 360], "columns": 4, "frame_count": 48, "fps": 12, "loop": false, "events": {"dip": 10, "lift": 37}},
+    "serve": {"sheet": "res://assets/rotoscope/serve.png", "source_clip": "serve-source.mp4", "frame_size": [720, 360], "columns": 4, "frame_count": 36, "fps": 12, "loop": false, "events": {"offer": 24}}
+  }
+}

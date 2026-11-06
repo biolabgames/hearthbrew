@@ -1,0 +1,872 @@
+{
+  "version": 1,
+  "frame_size": [
+    512,
+    384
+  ],
+  "columns": 3,
+  "rows": [
+    "neutral",
+    "smile",
+    "frown"
+  ],
+  "eye_columns": [
+    "open",
+    "half",
+    "closed"
+  ],
+  "people": [
+    {
+      "name": "Poppy",
+      "sheet": "res://assets/patients/poppy.png",
+      "source_sha256": "95dd0d5b05fe3ff6f6e18d73d6dacbdeb5893c3341ea607ade0453ee60ae68f1",
+      "frames": [
+        {
+          "mood": "neutral",
+          "eyes": "open",
+          "source_crop": [
+            0,
+            0,
+            512,
+            341
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "502eab5c7404f714456fcfc1c9d85812008496c833b02ba386e5f2deaaef3eaf"
+        },
+        {
+          "mood": "neutral",
+          "eyes": "half",
+          "source_crop": [
+            512,
+            0,
+            1024,
+            341
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "f680b650832a8b1325a8cd3a3bbdd59c3855006202c5cf8f2f3c24556354e299"
+        },
+        {
+          "mood": "neutral",
+          "eyes": "closed",
+          "source_crop": [
+            1024,
+            0,
+            1536,
+            341
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "9686f6b62c593506ef51c9f255daed1b5ec347ec291720798058f2aa002aaba7"
+        },
+        {
+          "mood": "smile",
+          "eyes": "open",
+          "source_crop": [
+            0,
+            341,
+            512,
+            683
+          ],
+          "padding": [
+            0,
+            42
+          ],
+          "sha256": "dee4a5a1f0c29c1fc83b83afb8a440eedbb545d7301126b7a7a44293e5c4b681"
+        },
+        {
+          "mood": "smile",
+          "eyes": "half",
+          "source_crop": [
+            512,
+            341,
+            1024,
+            683
+          ],
+          "padding": [
+            0,
+            42
+          ],
+          "sha256": "189c3270e868f0476b3dfdf1b557decea6595060ffff52b45284b027a167da63"
+        },
+        {
+          "mood": "smile",
+          "eyes": "closed",
+          "source_crop": [
+            1024,
+            341,
+            1536,
+            683
+          ],
+          "padding": [
+            0,
+            42
+          ],
+          "sha256": "cbfdc549f01acb9e0522fed1454fcf68c583ae28ea14695394f19a2f4494d540"
+        },
+        {
+          "mood": "frown",
+          "eyes": "open",
+          "source_crop": [
+            0,
+            683,
+            512,
+            1024
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "6294a015ad62701c9346acf089a7b31efc7a2e7e042915a855b72874e0a01c61"
+        },
+        {
+          "mood": "frown",
+          "eyes": "half",
+          "source_crop": [
+            512,
+            683,
+            1024,
+            1024
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "df7f7769f588774cd435525ce4975fce03cdbc82c8fbaf595aabb5de4625c9e6"
+        },
+        {
+          "mood": "frown",
+          "eyes": "closed",
+          "source_crop": [
+            1024,
+            683,
+            1536,
+            1024
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "6a7c32d39a8f1fee1c0b793e770e96a66d2eb4483a64aef440cd9d5e52a04fbe"
+        }
+      ]
+    },
+    {
+      "name": "Pip",
+      "sheet": "res://assets/patients/pip.png",
+      "source_sha256": "2890ed514c427c2c512ce6fc30d8490ba53612524d0473a9a7d046600614e111",
+      "frames": [
+        {
+          "mood": "neutral",
+          "eyes": "open",
+          "source_crop": [
+            0,
+            0,
+            512,
+            341
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "e957b5042affd5b5622ebb5434992056ad388436efbf9f09f3be064c557e109d"
+        },
+        {
+          "mood": "neutral",
+          "eyes": "half",
+          "source_crop": [
+            512,
+            0,
+            1024,
+            341
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "66a53571945edefa9e6e66a5da8da83a0b0a02da50363c73040f4bdb2496d8d2"
+        },
+        {
+          "mood": "neutral",
+          "eyes": "closed",
+          "source_crop": [
+            1024,
+            0,
+            1536,
+            341
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "afb79cab00382130d4604cbcd631e604d1ab8a2c721a41997e2591af5f394f49"
+        },
+        {
+          "mood": "smile",
+          "eyes": "open",
+          "source_crop": [
+            0,
+            341,
+            512,
+            683
+          ],
+          "padding": [
+            0,
+            42
+          ],
+          "sha256": "4f2bbe5dd44ded33b187e3d93de701314787ad6cc640608d284ad74bc8e92d5e"
+        },
+        {
+          "mood": "smile",
+          "eyes": "half",
+          "source_crop": [
+            512,
+            341,
+            1024,
+            683
+          ],
+          "padding": [
+            0,
+            42
+          ],
+          "sha256": "9a4b83b41151dcec687d698cb1350b2da08c14b1e05e69bfe7943eb5980f4a88"
+        },
+        {
+          "mood": "smile",
+          "eyes": "closed",
+          "source_crop": [
+            1024,
+            341,
+            1536,
+            683
+          ],
+          "padding": [
+            0,
+            42
+          ],
+          "sha256": "366a8ca8edd2794abf8ae8253463b10ebc6d588ca16a951a45caeb7761d62e7f"
+        },
+        {
+          "mood": "frown",
+          "eyes": "open",
+          "source_crop": [
+            0,
+            683,
+            512,
+            1024
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "3795ab2ef46c07e9400550aadfb3dc4f405ebeae493777810d6e51ddb697027e"
+        },
+        {
+          "mood": "frown",
+          "eyes": "half",
+          "source_crop": [
+            512,
+            683,
+            1024,
+            1024
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "874e9ee38275e9e361bb6d0fd1c3f7d4a53bef311603beca3fb0d4006291949d"
+        },
+        {
+          "mood": "frown",
+          "eyes": "closed",
+          "source_crop": [
+            1024,
+            683,
+            1536,
+            1024
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "1e4066214990df65ab1f5283e489b6bb7fd0b239bea20aba39405d7e53b29566"
+        }
+      ]
+    },
+    {
+      "name": "Juniper",
+      "sheet": "res://assets/patients/juniper.png",
+      "source_sha256": "f7157f19afcc03c2908d9694214885783626c4219900434871c95a01737ee5d1",
+      "frames": [
+        {
+          "mood": "neutral",
+          "eyes": "open",
+          "source_crop": [
+            0,
+            0,
+            512,
+            341
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "8a9fcb01975345c999b2223b0f36456423854a117c76692642e262e090483308"
+        },
+        {
+          "mood": "neutral",
+          "eyes": "half",
+          "source_crop": [
+            512,
+            0,
+            1024,
+            341
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "81c1db247b0b9c32010c87a6c89691d67df21cf906742fc0fd5036b000fbcfbb"
+        },
+        {
+          "mood": "neutral",
+          "eyes": "closed",
+          "source_crop": [
+            1024,
+            0,
+            1536,
+            341
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "488b06ef46aecac40d7b3c38680e511fd193f420d1cba0c22de172800ec37ab1"
+        },
+        {
+          "mood": "smile",
+          "eyes": "open",
+          "source_crop": [
+            0,
+            341,
+            512,
+            683
+          ],
+          "padding": [
+            0,
+            42
+          ],
+          "sha256": "f82819b8b92d2007a939cee55dc57bc85f2a3e4fa1f8701c1cee5978452459c4"
+        },
+        {
+          "mood": "smile",
+          "eyes": "half",
+          "source_crop": [
+            512,
+            341,
+            1024,
+            683
+          ],
+          "padding": [
+            0,
+            42
+          ],
+          "sha256": "073054b3c68f6f37a7f937a44856d2e93fb0143f0c76272522f0c6d7a2e1f739"
+        },
+        {
+          "mood": "smile",
+          "eyes": "closed",
+          "source_crop": [
+            1024,
+            341,
+            1536,
+            683
+          ],
+          "padding": [
+            0,
+            42
+          ],
+          "sha256": "58c8c3d7fd8fae0dda2f7ed81821e436bc28ef237e7ad235a2b04988ef10f9cb"
+        },
+        {
+          "mood": "frown",
+          "eyes": "open",
+          "source_crop": [
+            0,
+            683,
+            512,
+            1024
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "e3a77f96c3fb75fbe182e25f32e126fe8502b50e67b6da24b1842a4b22966535"
+        },
+        {
+          "mood": "frown",
+          "eyes": "half",
+          "source_crop": [
+            512,
+            683,
+            1024,
+            1024
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "f4a0d50ab9664bc71143d231514d97c044cc15f040b16dfcc8fdb96e66b87d38"
+        },
+        {
+          "mood": "frown",
+          "eyes": "closed",
+          "source_crop": [
+            1024,
+            683,
+            1536,
+            1024
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "f5564336c12858bf4b3135622d65f27300a878285391519c3bfacc96518a197a"
+        }
+      ]
+    },
+    {
+      "name": "Bramble",
+      "sheet": "res://assets/patients/bramble.png",
+      "source_sha256": "69a831ac2b9c69ea2faaedd5518225b8672c0bfa8b806e728f02156b809acb29",
+      "frames": [
+        {
+          "mood": "neutral",
+          "eyes": "open",
+          "source_crop": [
+            0,
+            0,
+            512,
+            341
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "1b57f5bbe2a4abb43837b9da7b761537d19eb197fec0bb31a63a3f49b26c566d"
+        },
+        {
+          "mood": "neutral",
+          "eyes": "half",
+          "source_crop": [
+            512,
+            0,
+            1024,
+            341
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "b10648e8996f10d02fbddbb99dc344dc0696c9fc63534e091ece2d9eb92546c4"
+        },
+        {
+          "mood": "neutral",
+          "eyes": "closed",
+          "source_crop": [
+            1024,
+            0,
+            1536,
+            341
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "24b4607b602c24662c50417a87d3a326dca8e81b5b8588824a929de0c92ace57"
+        },
+        {
+          "mood": "smile",
+          "eyes": "open",
+          "source_crop": [
+            0,
+            341,
+            512,
+            683
+          ],
+          "padding": [
+            0,
+            42
+          ],
+          "sha256": "3121db6bc4819391f0359c635d8fe83cc203ee77a79bb12d95f9d724e3b38a32"
+        },
+        {
+          "mood": "smile",
+          "eyes": "half",
+          "source_crop": [
+            512,
+            341,
+            1024,
+            683
+          ],
+          "padding": [
+            0,
+            42
+          ],
+          "sha256": "e499fe4246d68856bf255d6c21e005b24503a4e2e4016c079e8dbc50f6ffbf2f"
+        },
+        {
+          "mood": "smile",
+          "eyes": "closed",
+          "source_crop": [
+            1024,
+            341,
+            1536,
+            683
+          ],
+          "padding": [
+            0,
+            42
+          ],
+          "sha256": "e0d0a16d095da7a8f410c7dab1fbb4f2b7978ccdfdf65853a300ab1edded19b1"
+        },
+        {
+          "mood": "frown",
+          "eyes": "open",
+          "source_crop": [
+            0,
+            683,
+            512,
+            1024
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "c9a41324a8980e89f29d1e3d7f37a0e5369bcb8b8148c7b1c79e1d67cf702701"
+        },
+        {
+          "mood": "frown",
+          "eyes": "half",
+          "source_crop": [
+            512,
+            683,
+            1024,
+            1024
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "03bff801f34ec016ffdec9ee9b28e884ce5d7d22218f6c1c16fe3c0c347552ba"
+        },
+        {
+          "mood": "frown",
+          "eyes": "closed",
+          "source_crop": [
+            1024,
+            683,
+            1536,
+            1024
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "d70218fd03b541132159296daee6714e4da241b8b6e0c53077548aac3ccd662f"
+        }
+      ]
+    },
+    {
+      "name": "Mallow",
+      "sheet": "res://assets/patients/mallow.png",
+      "source_sha256": "faef39a63bafd2fce8d3a9e02018be588a8d64235768d1f6f62bbc28aa6953f4",
+      "frames": [
+        {
+          "mood": "neutral",
+          "eyes": "open",
+          "source_crop": [
+            0,
+            0,
+            512,
+            341
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "d42ea4765fe3bbfea8a9c625a9fbbdbc5936c7e99802ac90cbb40cd63c25e0b4"
+        },
+        {
+          "mood": "neutral",
+          "eyes": "half",
+          "source_crop": [
+            512,
+            0,
+            1024,
+            341
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "2f6fe5ad483e200dcbbee8b1c034ced49b02f5e04323065a4ab6e62cc66c941d"
+        },
+        {
+          "mood": "neutral",
+          "eyes": "closed",
+          "source_crop": [
+            1024,
+            0,
+            1536,
+            341
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "d911c2fe93d8317da7ffbae8416b088db504ac8107e6d7f334dd5c8992fab863"
+        },
+        {
+          "mood": "smile",
+          "eyes": "open",
+          "source_crop": [
+            0,
+            341,
+            512,
+            683
+          ],
+          "padding": [
+            0,
+            42
+          ],
+          "sha256": "3e4362fc321884cd1aaf71ebefd660228520349f70ac7335c4e7e2ba8567db87"
+        },
+        {
+          "mood": "smile",
+          "eyes": "half",
+          "source_crop": [
+            512,
+            341,
+            1024,
+            683
+          ],
+          "padding": [
+            0,
+            42
+          ],
+          "sha256": "54b3d8540fca1ac90858df8dd2d51a5448d0ea6624f7f81327145f42a3de2fa0"
+        },
+        {
+          "mood": "smile",
+          "eyes": "closed",
+          "source_crop": [
+            1024,
+            341,
+            1536,
+            683
+          ],
+          "padding": [
+            0,
+            42
+          ],
+          "sha256": "db58041bc6e18eb127b7b5262317ad651c16e014f51f7894da0f8024bacc6150"
+        },
+        {
+          "mood": "frown",
+          "eyes": "open",
+          "source_crop": [
+            0,
+            683,
+            512,
+            1024
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "e0bbf95de7bd851da900d38bf99e35f9976b6ecb8dfc682403dcd57c8b1ae580"
+        },
+        {
+          "mood": "frown",
+          "eyes": "half",
+          "source_crop": [
+            512,
+            683,
+            1024,
+            1024
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "47be4bd7a90de9b5f8cf52086e1da39136be871feb0ac8ab5ac1712dd056bd07"
+        },
+        {
+          "mood": "frown",
+          "eyes": "closed",
+          "source_crop": [
+            1024,
+            683,
+            1536,
+            1024
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "fef1546933e20595ee7168fd88b8b0a8fa1484fe2156916747bf72ac0081660e"
+        }
+      ]
+    },
+    {
+      "name": "Rowan",
+      "sheet": "res://assets/patients/rowan.png",
+      "source_sha256": "c6c01f893d3def8015dd5741817f6ff2e5a0598f370c85ccc4a55aabaeabe5b2",
+      "frames": [
+        {
+          "mood": "neutral",
+          "eyes": "open",
+          "source_crop": [
+            0,
+            0,
+            512,
+            341
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "567b69a65ed2e838780ef925f0f2c5634f766288d04b8c3c5d0a0818015d2041"
+        },
+        {
+          "mood": "neutral",
+          "eyes": "half",
+          "source_crop": [
+            512,
+            0,
+            1024,
+            341
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "872e4995ff4b19a699d9616e13ab053c6e7e48015cb81c0c7bf9f73e360595ac"
+        },
+        {
+          "mood": "neutral",
+          "eyes": "closed",
+          "source_crop": [
+            1024,
+            0,
+            1536,
+            341
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "4c678ca5e8338f7c61340fe80927fa6e2ed7083cd910875e57cb80c44d93a977"
+        },
+        {
+          "mood": "smile",
+          "eyes": "open",
+          "source_crop": [
+            0,
+            341,
+            512,
+            683
+          ],
+          "padding": [
+            0,
+            42
+          ],
+          "sha256": "1c5711a8b027f871ea54daca5b4832203de71c4a4ed48d25a89bfea3e6d7f69c"
+        },
+        {
+          "mood": "smile",
+          "eyes": "half",
+          "source_crop": [
+            512,
+            341,
+            1024,
+            683
+          ],
+          "padding": [
+            0,
+            42
+          ],
+          "sha256": "407620859c8ef983a98cc9464f1262f0df447c3a6be84f92aea6de136fbf9612"
+        },
+        {
+          "mood": "smile",
+          "eyes": "closed",
+          "source_crop": [
+            1024,
+            341,
+            1536,
+            683
+          ],
+          "padding": [
+            0,
+            42
+          ],
+          "sha256": "3e03681c70ed6790f7224f0273b7fe4dadbe097b5f112a534f4a689a7108bbcf"
+        },
+        {
+          "mood": "frown",
+          "eyes": "open",
+          "source_crop": [
+            0,
+            683,
+            512,
+            1024
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "e05de4acc6a1d4dc74f0df5a35fa80b3f5735141edd0d21fa337cbc0fc5159fa"
+        },
+        {
+          "mood": "frown",
+          "eyes": "half",
+          "source_crop": [
+            512,
+            683,
+            1024,
+            1024
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "256f6698f0c20f70460b02085d7819bf262d8315f4e3b614cbd16700fda3ea61"
+        },
+        {
+          "mood": "frown",
+          "eyes": "closed",
+          "source_crop": [
+            1024,
+            683,
+            1536,
+            1024
+          ],
+          "padding": [
+            0,
+            43
+          ],
+          "sha256": "a04055782ea0147c2867a2f239da00f98fc8bf52b894e2ed3c6f53a8b25228d7"
+        }
+      ]
+    }
+  ]
+}

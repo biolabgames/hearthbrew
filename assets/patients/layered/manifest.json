@@ -1,0 +1,651 @@
+{
+  "version": 2,
+  "body_size": [
+    512,
+    384
+  ],
+  "face_frame_size": [
+    128,
+    128
+  ],
+  "face_offset": [
+    200,
+    96
+  ],
+  "rows": [
+    "neutral",
+    "smile",
+    "frown"
+  ],
+  "columns": [
+    "open",
+    "half",
+    "closed"
+  ],
+  "people": [
+    {
+      "name": "Poppy",
+      "body": "res://assets/patients/layered/poppy-body.png",
+      "faces": "res://assets/patients/layered/poppy-faces.png",
+      "face_offset": [
+        200,
+        96
+      ],
+      "feature_zones": [
+        [
+          "rect",
+          [
+            232,
+            103,
+            314,
+            144
+          ]
+        ],
+        [
+          "rect",
+          [
+            257,
+            139,
+            285,
+            161
+          ]
+        ],
+        [
+          "rect",
+          [
+            252,
+            158,
+            294,
+            182
+          ]
+        ]
+      ],
+      "body_sha256": "6e2e512361bed13914cdd63d9fa6081c834e9a838fa613a82fa88d6b86f8aec4",
+      "frames": [
+        {
+          "index": 0,
+          "mood": "neutral",
+          "eyes": "open",
+          "overlay_sha256": "8b65e650438dd85669fd75c87abe2e355270dd314f8396bfce03e0110de51f59"
+        },
+        {
+          "index": 1,
+          "mood": "neutral",
+          "eyes": "half",
+          "overlay_sha256": "c8f910178e597ba95182971f93159b413d196b7f014d30122fec21b22674de61"
+        },
+        {
+          "index": 2,
+          "mood": "neutral",
+          "eyes": "closed",
+          "overlay_sha256": "2c0e203b092d0958d581f61ec11d5699d69fbad8cf618e52a9478ec3bd1c03e9"
+        },
+        {
+          "index": 3,
+          "mood": "smile",
+          "eyes": "open",
+          "overlay_sha256": "8a6834286cf3ff91b06800bee4463a66daed4ca98cbd3273e98242de3c4db257"
+        },
+        {
+          "index": 4,
+          "mood": "smile",
+          "eyes": "half",
+          "overlay_sha256": "7e12ce9490d05f38a8e14c57478832a698a8687ce4d4f06729bb39628d9eed21"
+        },
+        {
+          "index": 5,
+          "mood": "smile",
+          "eyes": "closed",
+          "overlay_sha256": "782d81466144887f76c0d9859c6d732b3f313ee46db200c62eb1c07e33bbefbb"
+        },
+        {
+          "index": 6,
+          "mood": "frown",
+          "eyes": "open",
+          "overlay_sha256": "59f5a7675bdc15ca85e02e5f6af0dc29d8bf7c73310255f5abf99a0f71263f2d"
+        },
+        {
+          "index": 7,
+          "mood": "frown",
+          "eyes": "half",
+          "overlay_sha256": "014b8f5c92e2468ed4f3d56b8c8035dfa97a2d18311e673dc8e2ab8ffe5a3082"
+        },
+        {
+          "index": 8,
+          "mood": "frown",
+          "eyes": "closed",
+          "overlay_sha256": "060871f27f55898ddd472fa998f989afb511f2ca5d06f75f04d24c905da0313a"
+        }
+      ]
+    },
+    {
+      "name": "Pip",
+      "body": "res://assets/patients/layered/pip-body.png",
+      "faces": "res://assets/patients/layered/pip-faces.png",
+      "face_offset": [
+        200,
+        96
+      ],
+      "feature_zones": [
+        [
+          "rect",
+          [
+            222,
+            102,
+            248,
+            117
+          ]
+        ],
+        [
+          "rect",
+          [
+            260,
+            101,
+            286,
+            117
+          ]
+        ],
+        [
+          "ellipse",
+          [
+            222,
+            116,
+            249,
+            139
+          ]
+        ],
+        [
+          "ellipse",
+          [
+            261,
+            114,
+            286,
+            138
+          ]
+        ],
+        [
+          "rect",
+          [
+            245,
+            140,
+            265,
+            158
+          ]
+        ],
+        [
+          "rect",
+          [
+            240,
+            158,
+            275,
+            177
+          ]
+        ]
+      ],
+      "body_sha256": "1b9222989d93467cfc114a178a3668b9a4032c454d39c66bc908bb71eb1bf392",
+      "frames": [
+        {
+          "index": 0,
+          "mood": "neutral",
+          "eyes": "open",
+          "overlay_sha256": "3d862d4a928cb3c5bd9172d07b8b14f40b5d7f5aa511ff3008f6970fb36552ea"
+        },
+        {
+          "index": 1,
+          "mood": "neutral",
+          "eyes": "half",
+          "overlay_sha256": "ff7c364f4bdaa5a9a3724c4dc79cea54c456c131d549b580bd93cb29923554aa"
+        },
+        {
+          "index": 2,
+          "mood": "neutral",
+          "eyes": "closed",
+          "overlay_sha256": "735b4a6af0a09e85a2a3b647da2962e1f50951fb382df18c49b916ebf13bc8d5"
+        },
+        {
+          "index": 3,
+          "mood": "smile",
+          "eyes": "open",
+          "overlay_sha256": "6c5d9e14adb38c8726944fe9e75647d4ba450f0809a98182c4dcae435611065e"
+        },
+        {
+          "index": 4,
+          "mood": "smile",
+          "eyes": "half",
+          "overlay_sha256": "027ba139c64fa9b6f6ff65c886c6b0e52be161cb958996de5c6740d02d4ddd36"
+        },
+        {
+          "index": 5,
+          "mood": "smile",
+          "eyes": "closed",
+          "overlay_sha256": "8a5d1605b35d9070df7036e6fec3a50b52eaf9a00f818974f5b3024042882676"
+        },
+        {
+          "index": 6,
+          "mood": "frown",
+          "eyes": "open",
+          "overlay_sha256": "341782a164152e0128121ac71e219cdec0797320882d497d65c9cc04542a471e"
+        },
+        {
+          "index": 7,
+          "mood": "frown",
+          "eyes": "half",
+          "overlay_sha256": "5c05b42912587dd62fd226590549ef1b565d747911fb7529248103a6b5e4287a"
+        },
+        {
+          "index": 8,
+          "mood": "frown",
+          "eyes": "closed",
+          "overlay_sha256": "59d4aa3d549bd4470bd6e81fd71508f7776bf7acdb0ef94644e0c14444dffc4b"
+        }
+      ]
+    },
+    {
+      "name": "Juniper",
+      "body": "res://assets/patients/layered/juniper-body.png",
+      "faces": "res://assets/patients/layered/juniper-faces.png",
+      "face_offset": [
+        200,
+        96
+      ],
+      "feature_zones": [
+        [
+          "rect",
+          [
+            225,
+            129,
+            312,
+            174
+          ]
+        ],
+        [
+          "rect",
+          [
+            254,
+            168,
+            282,
+            189
+          ]
+        ],
+        [
+          "rect",
+          [
+            250,
+            184,
+            289,
+            208
+          ]
+        ]
+      ],
+      "body_sha256": "3050c7a3411bc73222bab3a9c2c9fb2c300a628ba3039051a1df3af1c25ad6e2",
+      "frames": [
+        {
+          "index": 0,
+          "mood": "neutral",
+          "eyes": "open",
+          "overlay_sha256": "054f8f3f528202beafd0bbacc0229b279c2b789792b88598968f8f5e06cd5f35"
+        },
+        {
+          "index": 1,
+          "mood": "neutral",
+          "eyes": "half",
+          "overlay_sha256": "df8335a7b1db0057dbfe58a1f4af7e1d7eda806f5c3958adb0c091f4dbb97b5f"
+        },
+        {
+          "index": 2,
+          "mood": "neutral",
+          "eyes": "closed",
+          "overlay_sha256": "69717d17dac6a1a7791d61e15d65c8e2ac768df241c1eeeb96dcbe50e7ac9057"
+        },
+        {
+          "index": 3,
+          "mood": "smile",
+          "eyes": "open",
+          "overlay_sha256": "a935e5546d58e2398946bb5bf7ab944d0dbc5cc65bd68e067a46853b1e342806"
+        },
+        {
+          "index": 4,
+          "mood": "smile",
+          "eyes": "half",
+          "overlay_sha256": "a157cc4e65ba9ee88eb2d1267657e174f6543d2b310c2a88a4eb20064de931be"
+        },
+        {
+          "index": 5,
+          "mood": "smile",
+          "eyes": "closed",
+          "overlay_sha256": "f25cf7d2397becf8347f0d352075e3548044709da2aa285b0fc63f66b9d1746b"
+        },
+        {
+          "index": 6,
+          "mood": "frown",
+          "eyes": "open",
+          "overlay_sha256": "92e1901cd326230d3b90dffcf60d44305b6252df8689463ec2120cc0f41f4480"
+        },
+        {
+          "index": 7,
+          "mood": "frown",
+          "eyes": "half",
+          "overlay_sha256": "65d77220507652d5798ced9fbdd76a5bf5fff8125a915b78cc65d4a048c9b161"
+        },
+        {
+          "index": 8,
+          "mood": "frown",
+          "eyes": "closed",
+          "overlay_sha256": "d32ed4c1f6ff35c21bd61702707ad866c2d75fe024d1c1c297eed1309cbf4e72"
+        }
+      ]
+    },
+    {
+      "name": "Bramble",
+      "body": "res://assets/patients/layered/bramble-body.png",
+      "faces": "res://assets/patients/layered/bramble-faces.png",
+      "face_offset": [
+        200,
+        96
+      ],
+      "feature_zones": [
+        [
+          "rect",
+          [
+            216,
+            105,
+            305,
+            148
+          ]
+        ],
+        [
+          "rect",
+          [
+            239,
+            142,
+            284,
+            168
+          ]
+        ],
+        [
+          "rect",
+          [
+            231,
+            165,
+            296,
+            192
+          ]
+        ]
+      ],
+      "body_sha256": "1dae9e6763f079d26b597a2b949ae23d6ab44e4811159e661d5b5f7c7516ea79",
+      "frames": [
+        {
+          "index": 0,
+          "mood": "neutral",
+          "eyes": "open",
+          "overlay_sha256": "9633719f0949740e07c9fcf0bfeafb346de803c63a214bbbc312b16e7c87c10b"
+        },
+        {
+          "index": 1,
+          "mood": "neutral",
+          "eyes": "half",
+          "overlay_sha256": "66b2906f3d22584bbfee32632c2458c65f32033ada9781292820e6e62386e45b"
+        },
+        {
+          "index": 2,
+          "mood": "neutral",
+          "eyes": "closed",
+          "overlay_sha256": "6feea840c6e33e9da030556bbbe3685c1361fb66d7f48b5134c71653a060b746"
+        },
+        {
+          "index": 3,
+          "mood": "smile",
+          "eyes": "open",
+          "overlay_sha256": "86bacc83b42ddd5e20cf67f4c4821d7c4ffd05090eb7bf086c1cf1817b075327"
+        },
+        {
+          "index": 4,
+          "mood": "smile",
+          "eyes": "half",
+          "overlay_sha256": "923ebbd0b78c6632800e4e77b291fec3bfd469efe42f5af22b44de13da72b4ae"
+        },
+        {
+          "index": 5,
+          "mood": "smile",
+          "eyes": "closed",
+          "overlay_sha256": "f209823b6ab3797a3bdc97a4a7e611a8d4406ac791e67cff889cb0198bc30f39"
+        },
+        {
+          "index": 6,
+          "mood": "frown",
+          "eyes": "open",
+          "overlay_sha256": "e4c8ddd3bfae86c11c9edb8eb19bfc090e66c188e36e49b6c559c213ec1bf973"
+        },
+        {
+          "index": 7,
+          "mood": "frown",
+          "eyes": "half",
+          "overlay_sha256": "47fbf4be3cfc924df39df7cd43ede9c64239952a93cefa3b8d61c17aacaa6aac"
+        },
+        {
+          "index": 8,
+          "mood": "frown",
+          "eyes": "closed",
+          "overlay_sha256": "782a79815945c2ceffdfd7fe2b123a18b308bfe5484a0d3341c773755efd90f2"
+        }
+      ]
+    },
+    {
+      "name": "Mallow",
+      "body": "res://assets/patients/layered/mallow-body.png",
+      "faces": "res://assets/patients/layered/mallow-faces.png",
+      "face_offset": [
+        200,
+        96
+      ],
+      "feature_zones": [
+        [
+          "rect",
+          [
+            219,
+            115,
+            249,
+            130
+          ]
+        ],
+        [
+          "rect",
+          [
+            270,
+            114,
+            305,
+            130
+          ]
+        ],
+        [
+          "ellipse",
+          [
+            217,
+            129,
+            253,
+            155
+          ]
+        ],
+        [
+          "ellipse",
+          [
+            265,
+            129,
+            302,
+            155
+          ]
+        ],
+        [
+          "rect",
+          [
+            249,
+            151,
+            278,
+            174
+          ]
+        ],
+        [
+          "rect",
+          [
+            244,
+            174,
+            283,
+            195
+          ]
+        ]
+      ],
+      "body_sha256": "3c68f87d08fa5f1549d1f31c4b49af6fdd75a15739e4420cfd720dc963e5b645",
+      "frames": [
+        {
+          "index": 0,
+          "mood": "neutral",
+          "eyes": "open",
+          "overlay_sha256": "b1c41973bdb34fa394b5f79f4a8585433d2b23e3da9f171afed3a30066bf41ae"
+        },
+        {
+          "index": 1,
+          "mood": "neutral",
+          "eyes": "half",
+          "overlay_sha256": "b190616227e2436175825fe94a11de7f8dc0dbc5c877c1a6ed6efff9315b968d"
+        },
+        {
+          "index": 2,
+          "mood": "neutral",
+          "eyes": "closed",
+          "overlay_sha256": "df78d6f8f1187eed6ed7b81a68362e698121af96985830eb65e8fcbc4216e9ef"
+        },
+        {
+          "index": 3,
+          "mood": "smile",
+          "eyes": "open",
+          "overlay_sha256": "6eb0d3de25f2afbf71d2d322bb87f2a7ffa9e8b52c2b4b800e79f37d3093c1a6"
+        },
+        {
+          "index": 4,
+          "mood": "smile",
+          "eyes": "half",
+          "overlay_sha256": "2b318d67c7412ef8f2890739a7183d85200a0dd92f93c65601c58a750260a674"
+        },
+        {
+          "index": 5,
+          "mood": "smile",
+          "eyes": "closed",
+          "overlay_sha256": "cce2d55d2f0b65690532dcc513a9f043ccd65c0001dd845f4e678de8b1abfb59"
+        },
+        {
+          "index": 6,
+          "mood": "frown",
+          "eyes": "open",
+          "overlay_sha256": "5bf045d378c618ebc1daf15a125e699c8c8a33b689e82a5b313c178ba9c7b63d"
+        },
+        {
+          "index": 7,
+          "mood": "frown",
+          "eyes": "half",
+          "overlay_sha256": "fd49770c26f6dc6192a873bd7d0fb13437523b7e85129841236d18aaf8ac6056"
+        },
+        {
+          "index": 8,
+          "mood": "frown",
+          "eyes": "closed",
+          "overlay_sha256": "66ef6bc01160e12f3c3c4e370614b8263f6dcd50779058feea7d503472b8f3aa"
+        }
+      ]
+    },
+    {
+      "name": "Rowan",
+      "body": "res://assets/patients/layered/rowan-body.png",
+      "faces": "res://assets/patients/layered/rowan-faces.png",
+      "face_offset": [
+        200,
+        96
+      ],
+      "feature_zones": [
+        [
+          "rect",
+          [
+            213,
+            102,
+            299,
+            144
+          ]
+        ],
+        [
+          "rect",
+          [
+            242,
+            141,
+            273,
+            163
+          ]
+        ],
+        [
+          "rect",
+          [
+            231,
+            159,
+            295,
+            190
+          ]
+        ]
+      ],
+      "body_sha256": "03e8b56729ffbc08ff72fb44c0b4b2f0693b90145de08cea171b3f09b2c4e350",
+      "frames": [
+        {
+          "index": 0,
+          "mood": "neutral",
+          "eyes": "open",
+          "overlay_sha256": "a5decfad6a8ab3c21d94d3d7ed926087177f45e56f9de5a2c8cd7c250818987c"
+        },
+        {
+          "index": 1,
+          "mood": "neutral",
+          "eyes": "half",
+          "overlay_sha256": "1b2d6fd7086faf4c17ee232402ff8c4dbde9c08ea62df7eb4a8064bf1d016f1c"
+        },
+        {
+          "index": 2,
+          "mood": "neutral",
+          "eyes": "closed",
+          "overlay_sha256": "462c9ac49e1627c44d803e563cb302b8e29254fd5eece925a338211650214501"
+        },
+        {
+          "index": 3,
+          "mood": "smile",
+          "eyes": "open",
+          "overlay_sha256": "72cae57b2ed0e03efd27da68fb712f27925bf7cfdaea25e917f9d6ae827416a7"
+        },
+        {
+          "index": 4,
+          "mood": "smile",
+          "eyes": "half",
+          "overlay_sha256": "122e951df6ff5e3f5f41464542dd2777fe1218cc4eb5430cdd163cd04561b9c5"
+        },
+        {
+          "index": 5,
+          "mood": "smile",
+          "eyes": "closed",
+          "overlay_sha256": "b79937776de76c5af86d0b21f6ca7c2bcabc05246aba0504e3fa99c9f82ac489"
+        },
+        {
+          "index": 6,
+          "mood": "frown",
+          "eyes": "open",
+          "overlay_sha256": "67a550e8b7fec2e0131375d0e2e36c46e13d33004e5278b1d9dae2f4b293f284"
+        },
+        {
+          "index": 7,
+          "mood": "frown",
+          "eyes": "half",
+          "overlay_sha256": "e7f9d500a7960a9b4d72ff26a3ac47193708a0009dc9068fea399b4731ee7bd9"
+        },
+        {
+          "index": 8,
+          "mood": "frown",
+          "eyes": "closed",
+          "overlay_sha256": "2c693ee9302f99a6fb6dd9a8130ba5a61cdd80011702f5de72f9ae8c08a49899"
+        }
+      ]
+    }
+  ]
+}
