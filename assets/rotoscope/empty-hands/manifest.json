@@ -1,0 +1,19 @@
+{
+  "atlas_sha256": {
+    "pour-01.png": "2d8cfa051a2e84f1d07bb8a2e6473cc67dd77df3f4c136c97e5bda6bd5411e06",
+    "pour-02.png": "d45f37ec0198177468efbdf23f656989dca08cb4fb3f08c8596113ef00c47189",
+    "pour-03.png": "818647e048473931e531b531bf98a9961cdf076d4484a95f53007ca7017a5011",
+    "pour-04.png": "cda7fc7810b3b41c79f05be9b56fba72573135c6eefec0c2e763de1a0452ae67",
+    "pour-05.png": "d2a45cad2cf6d515042b1bc7421c483abab005b85d432645ac36025b2144023a",
+    "pour-06.png": "dda45bedcb60865b949e15d9184cebdb2cbd4fbeb967c133fd18bd2bdefc4c28",
+    "stir-01.png": "2651def377cc430b688179f403e3b7b437e31de9913e5a98cca7dd1f4a5db0db",
+    "stir-02.png": "0dddabe6d4dd01f702595e5f88ef8d12becf4f42ac230de0ddcae5104520d2c9",
+    "stir-03.png": "ec8d4fa95a7ddf9b3728d907e3b12b61dd9cd840e96290a545efe661730dd670",
+    "stir-04.png": "014925b7dcb61613e38cd8d4224344ff207b14dfaec9feaea5d758b2df932fb3",
+    "stir-05.png": "e826dd2ff2ef725b40ceca8bbbd059c847e73d3d376865cd2d471340001f5220",
+    "stir-06.png": "714e211d1fe08cab86c2dfa55743896d721f23e9e0d29457e43d4ce2ee7a28f6",
+    "stir-07.png": "a79303614804162b89fff3f83e06eb046d555500fa690c4a360e026c068d0055"
+  },
+  "change": "Remove painted props from complete generated arm frames",
+  "tool": "built-in imagegen"
+}

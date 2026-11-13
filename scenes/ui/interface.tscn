@@ -1,0 +1,56 @@
+[gd_scene format=3]
+
+[ext_resource type="Theme" path="res://resources/interface_theme.tres" id="1_vexwb"]
+[ext_resource type="Script" path="res://scripts/interface.gd" id="2_rmlgn"]
+[ext_resource type="PackedScene" path="res://scenes/ui/header.tscn" id="3_erumi"]
+[ext_resource type="PackedScene" path="res://scenes/ui/journal.tscn" id="4_7q06a"]
+[ext_resource type="PackedScene" path="res://scenes/ui/shelf.tscn" id="5_gt0ke"]
+[ext_resource type="PackedScene" path="res://scenes/ui/clipboard.tscn" id="6_x2xi5"]
+[ext_resource type="PackedScene" path="res://scenes/ui/phase_display.tscn" id="7_u45sw"]
+[ext_resource type="Script" path="res://scripts/bowl_interaction.gd" id="8_bowl"]
+
+[node name="Interface" type="Control" unique_id=1211423579]
+layout_mode = 3
+anchors_preset = 0
+mouse_filter = 2
+theme = ExtResource("1_vexwb")
+script = ExtResource("2_rmlgn")
+
+[node name="BowlInteraction" type="Control" parent="."]
+offset_left = 570.0
+offset_top = 645.0
+offset_right = 870.0
+offset_bottom = 795.0
+script = ExtResource("8_bowl")
+tooltip_text = "Pour at least two ingredients, then click the bowl to mix."
+
+[node name="Header" type="Control" parent="." unique_id=867708882 instance=ExtResource("3_erumi")]
+anchors_preset = 0
+mouse_filter = 2
+script = ExtResource("2_rmlgn")
+
+[node name="Journal" type="Control" parent="." unique_id=1861600497 instance=ExtResource("4_7q06a")]
+anchors_preset = 0
+mouse_filter = 2
+script = ExtResource("2_rmlgn")
+
+[node name="Shelf" type="Control" parent="." unique_id=1374307378 instance=ExtResource("5_gt0ke")]
+anchors_preset = 0
+mouse_filter = 2
+script = ExtResource("2_rmlgn")
+
+[node name="Clipboard" type="Control" parent="." unique_id=530737247 instance=ExtResource("6_x2xi5")]
+anchors_preset = 0
+mouse_filter = 2
+script = ExtResource("2_rmlgn")
+
+[node name="PhaseDisplay" type="Control" parent="." unique_id=1612065845 instance=ExtResource("7_u45sw")]
+anchors_preset = 0
+mouse_filter = 2
+script = ExtResource("2_rmlgn")
+
+[connection signal="action_requested" from="Header" to="." method="_on_action"]
+[connection signal="action_requested" from="Journal" to="." method="_on_action"]
+[connection signal="action_requested" from="Shelf" to="." method="_on_action"]
+[connection signal="action_requested" from="Clipboard" to="." method="_on_action"]
+[connection signal="action_requested" from="PhaseDisplay" to="." method="_on_action"]

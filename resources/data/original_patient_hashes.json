@@ -1,0 +1,97 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "440D8FA3CCE52733ECE65CAF5620A8982BFBCB3145140801ECB6A355A1A83966",
+    "Path": "res://assets/patients/layered/bramble-body.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "66DFFD2AF764E37B2332653E5C4C0D5228DF01128A10697A2CE69A35F1C20C4A",
+    "Path": "res://assets/patients/layered/juniper-body.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "14D489E5405D4110EBC565BDFA5BA13BA6CC6C71AB93A9C6B74C7E971BA4F7A4",
+    "Path": "res://assets/patients/layered/mallow-body.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "B5AE7B347DCC49A59BEFC6575EC22FD92B67949451023D36E814D5C648C21F1B",
+    "Path": "res://assets/patients/layered/pip-body.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "FC270B6644FAE9501714BF28156C2F4C408D05F4F864856B38B2E94D07A2D80B",
+    "Path": "res://assets/patients/layered/poppy-body.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "0FC70FAFF3486656D13D6C3201904FDA5A57F4C3847904C5DC62BFF809188742",
+    "Path": "res://assets/patients/layered/rowan-body.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "76FE1F30392A9561FB25122FE7584D33E0BAC2EE4CD98D9AB266F90D8B0CAD81",
+    "Path": "res://assets/patients/layered/bramble-faces.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "1A12B4797D5A6522E46AE5D0D6B55064E9EBDBF37EA6F3765FC966B29E6FE357",
+    "Path": "res://assets/patients/layered/juniper-faces.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "DB71CB771B7A1A574448889ECBD34B22149AB805A7AADA5065F4F4168A4F5113",
+    "Path": "res://assets/patients/layered/mallow-faces.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "11948F6F199762162780E741EFB2EA2967E35F117F7690989B5090981D16A659",
+    "Path": "res://assets/patients/layered/pip-faces.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "CCB4555327828C16E44EA1EDA77EA98DA7FD1AFDA07BD012142D388B06E69E7C",
+    "Path": "res://assets/patients/layered/poppy-faces.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "2ED03FBE3F0D8FC23D06347FC1A28D0CBB3988D9F089B8AF55EEB20AF73E5FFA",
+    "Path": "res://assets/patients/layered/rowan-faces.png"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "5B0D07BC2C7E5D9684F82EA86CEB876A9F43662AFC1C69CBEEB0CA631A342BBC",
+    "Path": "res://scenes/patients/poppy.tscn"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "A51E10272A3D3C004BC235AC9377F8F5545D1C6CF1E9317422040A4E446F6DF2",
+    "Path": "res://scenes/patients/pip.tscn"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "6B257397E50F659EF84009177C10341E8066220746B3AB51C59ED38EBCE6995C",
+    "Path": "res://scenes/patients/juniper.tscn"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "63A6094574432542466E6ED23BE78C9FE41C3F6AD87C116FAF170CB5156392A8",
+    "Path": "res://scenes/patients/bramble.tscn"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "2889FB0F04EB8160EEA7996F99D5ABB2117EF490E1381A7DCB986F0DF2DA3133",
+    "Path": "res://scenes/patients/mallow.tscn"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "779C6560B179D74419D485E167BE91E6FAC8DF1D6652C3E89A21A3893D5759D2",
+    "Path": "res://scenes/patients/rowan.tscn"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "AA06DFAEC87008447950AE485FD36907D70167EADBE36981D5AF5D44186E9AA2",
+    "Path": "res://resources/data/patients.tres"
+  }
+]

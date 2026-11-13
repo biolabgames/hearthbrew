@@ -1,0 +1,11 @@
+{
+  "tool": "built-in imagegen",
+  "operation": "background-extraction",
+  "prompt": "Use case: background-extraction. Edit the supplied Felix sprite sheet ONLY to remove its white/off-white background and pale background haze. Make every background pixel truly fully transparent (alpha zero), with clean antialiased edges around hair, shoulders and torso. Preserve the exact 1536x1024 canvas, the exact three-column three-row grid, all nine positions, all facial expressions, every clothing detail, skin tone, hair, scarf and body proportions. Do not redraw, move, resize, crop, recolour or restyle the character. Do not add a checkerboard or any solid backdrop. This is production game sprite transparency cleanup. Output a genuine RGBA PNG with transparent space around each of the nine busts.",
+  "source": "felix.png",
+  "result": "felix.png",
+  "canvas": [
+    1536,
+    1024
+  ]
+}

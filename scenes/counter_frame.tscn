@@ -1,0 +1,32 @@
+[gd_scene format=3]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xxu3f"]
+bg_color = Color(0.32156864, 0.43137255, 0.3647059, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.5764706, 0.41960785, 0.28235295, 1)
+corner_radius_top_left = 13
+corner_radius_top_right = 13
+corner_radius_bottom_right = 13
+corner_radius_bottom_left = 13
+
+[node name="CounterFrame" type="Node2D" unique_id=695475763]
+
+[node name="Polygon2D3" type="Polygon2D" parent="." unique_id=1001970291]
+color = Color(0.8745098, 0.7058824, 0.49019608, 1)
+polygon = PackedVector2Array(356, 838, 1106, 838, 1106, 900, 356, 900)
+
+[node name="Line2D4" type="Line2D" parent="." unique_id=1429507148]
+points = PackedVector2Array(356, 838, 1106, 838)
+width = 3.0
+default_color = Color(0.5803922, 0.41960785, 0.25882354, 1)
+
+[node name="Panel5" type="Panel" parent="." unique_id=661661826]
+offset_left = 572.0
+offset_top = 842.0
+offset_right = 884.0
+offset_bottom = 878.0
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_xxu3f")

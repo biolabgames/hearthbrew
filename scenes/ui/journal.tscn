@@ -1,0 +1,362 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/interface.gd" id="1_6tv0q"]
+
+[sub_resource type="SystemFont" id="SystemFont_p2ypj"]
+font_names = PackedStringArray("Georgia", "DejaVu Serif", "serif")
+
+[sub_resource type="SystemFont" id="SystemFont_ke0kw"]
+font_names = PackedStringArray("Trebuchet MS", "DejaVu Sans", "sans-serif")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gt0ke"]
+content_margin_left = 8.0
+content_margin_right = 8.0
+bg_color = Color(0.5529412, 0.62352943, 0.4862745, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.34635296, 0.2489412, 0.19482353, 1)
+corner_radius_top_left = 11
+corner_radius_top_right = 11
+corner_radius_bottom_right = 11
+corner_radius_bottom_left = 11
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w3v0r"]
+content_margin_left = 8.0
+content_margin_right = 8.0
+bg_color = Color(0.20784314, 0.3647059, 0.29803923, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.34635296, 0.2489412, 0.19482353, 1)
+corner_radius_top_left = 11
+corner_radius_top_right = 11
+corner_radius_bottom_right = 11
+corner_radius_bottom_left = 11
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_u45sw"]
+content_margin_left = 8.0
+content_margin_right = 8.0
+bg_color = Color(0.61105883, 0.6724706, 0.5530588, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.34635296, 0.2489412, 0.19482353, 1)
+corner_radius_top_left = 11
+corner_radius_top_right = 11
+corner_radius_bottom_right = 11
+corner_radius_bottom_left = 11
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7q06a"]
+content_margin_left = 8.0
+content_margin_right = 8.0
+bg_color = Color(0.39313728, 0.50058824, 0.41980395, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.34635296, 0.2489412, 0.19482353, 1)
+corner_radius_top_left = 11
+corner_radius_top_right = 11
+corner_radius_bottom_right = 11
+corner_radius_bottom_left = 11
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1qavc"]
+content_margin_left = 8.0
+content_margin_right = 8.0
+bg_color = Color(0.5829412, 0.6429412, 0.5233334, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.34635296, 0.2489412, 0.19482353, 1)
+corner_radius_top_left = 11
+corner_radius_top_right = 11
+corner_radius_bottom_right = 11
+corner_radius_bottom_left = 11
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8srw3"]
+content_margin_left = 8.0
+content_margin_right = 8.0
+bg_color = Color(0.5829412, 0.6429412, 0.5233334, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.34635296, 0.2489412, 0.19482353, 1)
+corner_radius_top_left = 11
+corner_radius_top_right = 11
+corner_radius_bottom_right = 11
+corner_radius_bottom_left = 11
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_iykce"]
+content_margin_left = 8.0
+content_margin_right = 8.0
+bg_color = Color(0.5829412, 0.6429412, 0.5233334, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.34635296, 0.2489412, 0.19482353, 1)
+corner_radius_top_left = 11
+corner_radius_top_right = 11
+corner_radius_bottom_right = 11
+corner_radius_bottom_left = 11
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j5sa3"]
+content_margin_left = 8.0
+content_margin_right = 8.0
+bg_color = Color(0.5829412, 0.6429412, 0.5233334, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.34635296, 0.2489412, 0.19482353, 1)
+corner_radius_top_left = 11
+corner_radius_top_right = 11
+corner_radius_bottom_right = 11
+corner_radius_bottom_left = 11
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gerem"]
+content_margin_left = 8.0
+content_margin_right = 8.0
+bg_color = Color(0.5829412, 0.6429412, 0.5233334, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.34635296, 0.2489412, 0.19482353, 1)
+corner_radius_top_left = 11
+corner_radius_top_right = 11
+corner_radius_bottom_right = 11
+corner_radius_bottom_left = 11
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w8d4y"]
+content_margin_left = 8.0
+content_margin_right = 8.0
+bg_color = Color(0.5829412, 0.6429412, 0.5233334, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.34635296, 0.2489412, 0.19482353, 1)
+corner_radius_top_left = 11
+corner_radius_top_right = 11
+corner_radius_bottom_right = 11
+corner_radius_bottom_left = 11
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lydsf"]
+content_margin_left = 8.0
+content_margin_right = 8.0
+bg_color = Color(0.5829412, 0.6429412, 0.5233334, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.34635296, 0.2489412, 0.19482353, 1)
+corner_radius_top_left = 11
+corner_radius_top_right = 11
+corner_radius_bottom_right = 11
+corner_radius_bottom_left = 11
+
+[node name="Journal" type="Control" unique_id=1861600497]
+anchors_preset = 0
+mouse_filter = 2
+script = ExtResource("1_6tv0q")
+
+[node name="JournalTitle" type="Label" parent="." unique_id=187102171]
+layout_mode = 0
+offset_left = 43.0
+offset_top = 153.0
+offset_right = 315.0
+offset_bottom = 189.0
+theme_override_colors/font_color = Color(0.20784314, 0.3647059, 0.29803923, 1)
+theme_override_fonts/font = SubResource("SystemFont_p2ypj")
+theme_override_font_sizes/font_size = 24
+text = "The remedy journal"
+autowrap_mode = 3
+
+[node name="JournalHelp" type="Label" parent="." unique_id=446770701]
+layout_mode = 0
+offset_left = 44.0
+offset_top = 191.0
+offset_right = 317.0
+offset_bottom = 216.0
+theme_override_colors/font_color = Color(0.3764706, 0.27058825, 0.21176471, 1)
+theme_override_fonts/font = SubResource("SystemFont_ke0kw")
+theme_override_font_sizes/font_size = 13
+text = "Pin a recipe to read its order and notes."
+autowrap_mode = 3
+
+[node name="Recipe0" type="Button" parent="." unique_id=1850705476]
+layout_mode = 0
+offset_left = 42.0
+offset_top = 220.0
+offset_right = 316.0
+offset_bottom = 245.0
+tooltip_text = "Cures fever"
+focus_mode = 0
+theme_override_colors/font_color = Color(1, 0.94509804, 0.8352941, 1)
+theme_override_colors/font_hover_color = Color(1, 0.94509804, 0.8352941, 1)
+theme_override_colors/font_disabled_color = Color(0.38431373, 0.39607844, 0.30980393, 1)
+theme_override_fonts/font = SubResource("SystemFont_ke0kw")
+theme_override_font_sizes/font_size = 15
+theme_override_styles/normal = SubResource("StyleBoxFlat_gt0ke")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_w3v0r")
+theme_override_styles/hover = SubResource("StyleBoxFlat_u45sw")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_7q06a")
+toggle_mode = true
+button_pressed = true
+text = "Dewdrop draught"
+
+[node name="Recipe1" type="Button" parent="." unique_id=442181313]
+layout_mode = 0
+offset_left = 42.0
+offset_top = 248.0
+offset_right = 316.0
+offset_bottom = 273.0
+tooltip_text = "Cures shivers"
+focus_mode = 0
+theme_override_colors/font_color = Color(1, 0.94509804, 0.8352941, 1)
+theme_override_colors/font_hover_color = Color(1, 0.94509804, 0.8352941, 1)
+theme_override_colors/font_disabled_color = Color(0.38431373, 0.39607844, 0.30980393, 1)
+theme_override_fonts/font = SubResource("SystemFont_ke0kw")
+theme_override_font_sizes/font_size = 15
+theme_override_styles/normal = SubResource("StyleBoxFlat_gt0ke")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_w3v0r")
+theme_override_styles/hover = SubResource("StyleBoxFlat_u45sw")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_1qavc")
+toggle_mode = true
+text = "Cloud blanket"
+
+[node name="Recipe2" type="Button" parent="." unique_id=511563425]
+layout_mode = 0
+offset_left = 42.0
+offset_top = 276.0
+offset_right = 316.0
+offset_bottom = 301.0
+tooltip_text = "Cures floating"
+focus_mode = 0
+theme_override_colors/font_color = Color(1, 0.94509804, 0.8352941, 1)
+theme_override_colors/font_hover_color = Color(1, 0.94509804, 0.8352941, 1)
+theme_override_colors/font_disabled_color = Color(0.38431373, 0.39607844, 0.30980393, 1)
+theme_override_fonts/font = SubResource("SystemFont_ke0kw")
+theme_override_font_sizes/font_size = 15
+theme_override_styles/normal = SubResource("StyleBoxFlat_gt0ke")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_w3v0r")
+theme_override_styles/hover = SubResource("StyleBoxFlat_u45sw")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_8srw3")
+toggle_mode = true
+text = "Rooted lullaby"
+
+[node name="Recipe3" type="Button" parent="." unique_id=1473997844]
+layout_mode = 0
+offset_left = 42.0
+offset_top = 304.0
+offset_right = 316.0
+offset_bottom = 329.0
+tooltip_text = "Cures stone skin"
+focus_mode = 0
+theme_override_colors/font_color = Color(1, 0.94509804, 0.8352941, 1)
+theme_override_colors/font_hover_color = Color(1, 0.94509804, 0.8352941, 1)
+theme_override_colors/font_disabled_color = Color(0.38431373, 0.39607844, 0.30980393, 1)
+theme_override_fonts/font = SubResource("SystemFont_ke0kw")
+theme_override_font_sizes/font_size = 15
+theme_override_styles/normal = SubResource("StyleBoxFlat_gt0ke")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_w3v0r")
+theme_override_styles/hover = SubResource("StyleBoxFlat_u45sw")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_iykce")
+toggle_mode = true
+text = "Softstep syrup"
+
+[node name="Recipe4" type="Button" parent="." unique_id=185613338]
+layout_mode = 0
+offset_left = 42.0
+offset_top = 332.0
+offset_right = 316.0
+offset_bottom = 357.0
+tooltip_text = "Cures invisibility"
+focus_mode = 0
+theme_override_colors/font_color = Color(1, 0.94509804, 0.8352941, 1)
+theme_override_colors/font_hover_color = Color(1, 0.94509804, 0.8352941, 1)
+theme_override_colors/font_disabled_color = Color(0.38431373, 0.39607844, 0.30980393, 1)
+theme_override_fonts/font = SubResource("SystemFont_ke0kw")
+theme_override_font_sizes/font_size = 15
+theme_override_styles/normal = SubResource("StyleBoxFlat_gt0ke")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_w3v0r")
+theme_override_styles/hover = SubResource("StyleBoxFlat_u45sw")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_j5sa3")
+toggle_mode = true
+text = "Lantern cordial"
+
+[node name="Recipe5" type="Button" parent="." unique_id=587678624]
+layout_mode = 0
+offset_left = 42.0
+offset_top = 360.0
+offset_right = 316.0
+offset_bottom = 385.0
+tooltip_text = "Cures hiccups"
+focus_mode = 0
+theme_override_colors/font_color = Color(1, 0.94509804, 0.8352941, 1)
+theme_override_colors/font_hover_color = Color(1, 0.94509804, 0.8352941, 1)
+theme_override_colors/font_disabled_color = Color(0.38431373, 0.39607844, 0.30980393, 1)
+theme_override_fonts/font = SubResource("SystemFont_ke0kw")
+theme_override_font_sizes/font_size = 15
+theme_override_styles/normal = SubResource("StyleBoxFlat_gt0ke")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_w3v0r")
+theme_override_styles/hover = SubResource("StyleBoxFlat_u45sw")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_gerem")
+toggle_mode = true
+text = "Quiet kettle"
+
+[node name="Recipe6" type="Button" parent="." unique_id=609521964]
+layout_mode = 0
+offset_left = 42.0
+offset_top = 388.0
+offset_right = 316.0
+offset_bottom = 413.0
+tooltip_text = "Cures wild blooming"
+focus_mode = 0
+theme_override_colors/font_color = Color(1, 0.94509804, 0.8352941, 1)
+theme_override_colors/font_hover_color = Color(1, 0.94509804, 0.8352941, 1)
+theme_override_colors/font_disabled_color = Color(0.38431373, 0.39607844, 0.30980393, 1)
+theme_override_fonts/font = SubResource("SystemFont_ke0kw")
+theme_override_font_sizes/font_size = 15
+theme_override_styles/normal = SubResource("StyleBoxFlat_gt0ke")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_w3v0r")
+theme_override_styles/hover = SubResource("StyleBoxFlat_u45sw")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_w8d4y")
+toggle_mode = true
+text = "Petal polish"
+
+[node name="Recipe7" type="Button" parent="." unique_id=1367175848]
+layout_mode = 0
+offset_left = 42.0
+offset_top = 416.0
+offset_right = 316.0
+offset_bottom = 441.0
+tooltip_text = "Cures fever + shivers"
+focus_mode = 0
+theme_override_colors/font_color = Color(1, 0.94509804, 0.8352941, 1)
+theme_override_colors/font_hover_color = Color(1, 0.94509804, 0.8352941, 1)
+theme_override_colors/font_disabled_color = Color(0.38431373, 0.39607844, 0.30980393, 1)
+theme_override_fonts/font = SubResource("SystemFont_ke0kw")
+theme_override_font_sizes/font_size = 15
+theme_override_styles/normal = SubResource("StyleBoxFlat_gt0ke")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_w3v0r")
+theme_override_styles/hover = SubResource("StyleBoxFlat_u45sw")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_lydsf")
+toggle_mode = true
+text = "Evening balance"
+
+[connection signal="pressed" from="Recipe0" to="." method="_on_action" binds= ["pin_recipe", 0]]
+[connection signal="pressed" from="Recipe1" to="." method="_on_action" binds= ["pin_recipe", 1]]
+[connection signal="pressed" from="Recipe2" to="." method="_on_action" binds= ["pin_recipe", 2]]
+[connection signal="pressed" from="Recipe3" to="." method="_on_action" binds= ["pin_recipe", 3]]
+[connection signal="pressed" from="Recipe4" to="." method="_on_action" binds= ["pin_recipe", 4]]
+[connection signal="pressed" from="Recipe5" to="." method="_on_action" binds= ["pin_recipe", 5]]
+[connection signal="pressed" from="Recipe6" to="." method="_on_action" binds= ["pin_recipe", 6]]
+[connection signal="pressed" from="Recipe7" to="." method="_on_action" binds= ["pin_recipe", 7]]

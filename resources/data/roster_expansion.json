@@ -1,0 +1,300 @@
+{
+  "patients": [
+    {
+      "allergy": -1,
+      "color": "#c79872",
+      "hint": "Use Wakebell tonic. Find the ingredient order in the recipe book.",
+      "job": "A village beekeeper",
+      "kind": "human",
+      "mask": 128,
+      "minimum": 1,
+      "name": "Hazel",
+      "story": "My bees found a moonflower. Now I cannot stop yawning, even at their best jokes.",
+      "treatments": [
+        16
+      ]
+    },
+    {
+      "allergy": -1,
+      "color": "#9dadaf",
+      "hint": "Use Steady shore. Find the ingredient order in the recipe book.",
+      "job": "The pond ferryman",
+      "kind": "human",
+      "mask": 256,
+      "minimum": 1,
+      "name": "Otis",
+      "story": "The pond keeps turning cartwheels. I would like the shore to hold still.",
+      "treatments": [
+        17
+      ]
+    },
+    {
+      "allergy": -1,
+      "color": "#94b390",
+      "hint": "Use Spark hush. Find the ingredient order in the recipe book.",
+      "job": "A woodland seamstress",
+      "kind": "human",
+      "mask": 512,
+      "minimum": 1,
+      "name": "Fern",
+      "story": "Every sneeze sends a spark through my pincushion. The curtains are getting nervous.",
+      "treatments": [
+        18
+      ]
+    },
+    {
+      "allergy": -1,
+      "color": "#ada0b5",
+      "hint": "Use Single voice. Find the ingredient order in the recipe book.",
+      "job": "The village night watchman",
+      "kind": "human",
+      "mask": 1024,
+      "minimum": 1,
+      "name": "Cedar",
+      "story": "I swallowed a bell charm. Every word comes back to me three times.",
+      "treatments": [
+        19
+      ]
+    },
+    {
+      "allergy": -1,
+      "color": "#c9a18f",
+      "hint": "Use Dusk veil. Find the ingredient order in the recipe book.",
+      "job": "A travelling mapmaker",
+      "kind": "human",
+      "mask": 2048,
+      "minimum": 1,
+      "name": "Tansy",
+      "story": "My hands glow so brightly that I cannot read my own maps after dusk.",
+      "treatments": [
+        20
+      ]
+    },
+    {
+      "allergy": -1,
+      "color": "#c79872",
+      "hint": "Use Wakebell tonic, then Rosecool tonic. Find the ingredient order in the recipe book.",
+      "job": "The mill keeper",
+      "kind": "human",
+      "mask": 129,
+      "minimum": 2,
+      "name": "Hugo",
+      "story": "A sleepy spell drifted through the mill. My forehead is warm and my eyelids weigh a sack each.",
+      "treatments": [
+        16,
+        8
+      ]
+    },
+    {
+      "allergy": -1,
+      "color": "#9dadaf",
+      "hint": "Use Steady shore, then Cloud blanket. Find the ingredient order in the recipe book.",
+      "job": "A stained-glass maker",
+      "kind": "human",
+      "mask": 258,
+      "minimum": 2,
+      "name": "Iris",
+      "story": "The glass cooled too quickly. Now I am shivering and the room will not stay level.",
+      "treatments": [
+        17,
+        1
+      ]
+    },
+    {
+      "allergy": -1,
+      "color": "#94b390",
+      "hint": "Use Spark hush, then Rooted lullaby. Find the ingredient order in the recipe book.",
+      "job": "A mushroom forager",
+      "kind": "human",
+      "mask": 516,
+      "minimum": 2,
+      "name": "Alder",
+      "story": "Those silver mushrooms made me float. Their peppery cousins added the sparks.",
+      "treatments": [
+        18,
+        2
+      ]
+    },
+    {
+      "allergy": -1,
+      "color": "#ada0b5",
+      "hint": "Use Single voice, then Quiet kettle. Find the ingredient order in the recipe book.",
+      "job": "The village choir leader",
+      "kind": "human",
+      "mask": 1056,
+      "minimum": 2,
+      "name": "Clover",
+      "story": "I meant to sing a round. Now my voice echoes and bubbles keep joining in.",
+      "treatments": [
+        19,
+        5
+      ]
+    },
+    {
+      "allergy": -1,
+      "color": "#c9a18f",
+      "hint": "Use Dusk veil, then Lantern cordial. Find the ingredient order in the recipe book.",
+      "job": "A clockwork repairer",
+      "kind": "human",
+      "mask": 2064,
+      "minimum": 2,
+      "name": "Wren",
+      "story": "An invisibility gear slipped. You cannot see me, but you can see my glowing fingers.",
+      "treatments": [
+        20,
+        4
+      ]
+    },
+    {
+      "allergy": -1,
+      "color": "#c79872",
+      "hint": "Use Wakebell tonic, then Spark hush. Find the ingredient order in the recipe book.",
+      "job": "The village soup cook",
+      "kind": "human",
+      "mask": 640,
+      "minimum": 2,
+      "name": "Saffron",
+      "story": "A pinch of dream pepper was too much. I keep yawning sparks over the soup.",
+      "treatments": [
+        16,
+        18
+      ]
+    },
+    {
+      "allergy": -1,
+      "color": "#9dadaf",
+      "hint": "Use Steady shore, then Dusk veil. Find the ingredient order in the recipe book.",
+      "job": "A travelling puppeteer",
+      "kind": "human",
+      "mask": 2304,
+      "minimum": 2,
+      "name": "Felix",
+      "story": "My puppet's spinning spell caught me. Now I glow whenever the floor tilts.",
+      "treatments": [
+        17,
+        20
+      ]
+    },
+    {
+      "allergy": -1,
+      "color": "#94b390",
+      "hint": "Use Softstep syrup, then Single voice. Find the ingredient order in the recipe book.",
+      "job": "The orchard keeper",
+      "kind": "human",
+      "mask": 1032,
+      "minimum": 2,
+      "name": "Dahlia",
+      "story": "The singing pear tree gave me stone skin and a voice that will not stop answering itself.",
+      "treatments": [
+        3,
+        19
+      ]
+    },
+    {
+      "allergy": -1,
+      "color": "#ada0b5",
+      "hint": "Use Wakebell tonic, then Dusk veil, then Petal polish. Find the ingredient order in the recipe book.",
+      "job": "An apprentice herbalist",
+      "kind": "human",
+      "mask": 2240,
+      "minimum": 3,
+      "name": "Moss",
+      "story": "I tried a bedtime garden charm. Now I yawn, shine, and grow flowers from my sleeves.",
+      "treatments": [
+        16,
+        20,
+        6
+      ]
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Drowsiness",
+      "bit": 128,
+      "color": "#a18bbd"
+    },
+    {
+      "name": "Dizziness",
+      "bit": 256,
+      "color": "#75a5aa"
+    },
+    {
+      "name": "Spark sneezes",
+      "bit": 512,
+      "color": "#d6a55e"
+    },
+    {
+      "name": "Echo voice",
+      "bit": 1024,
+      "color": "#829bc3"
+    },
+    {
+      "name": "Glow hands",
+      "bit": 2048,
+      "color": "#d1c27b"
+    }
+  ],
+  "recipes": [
+    {
+      "name": "Wakebell tonic",
+      "cure": 128,
+      "sequence": [
+        7,
+        10,
+        0
+      ],
+      "effect": "Cures drowsiness",
+      "note": "Ginger, starlight, then moonmilk lift heavy eyelids.",
+      "color": "#dfbd76"
+    },
+    {
+      "name": "Steady shore",
+      "cure": 256,
+      "sequence": [
+        9,
+        2,
+        8
+      ],
+      "effect": "Cures dizziness",
+      "note": "Silverleaf, dew, then valerian settle a spinning room.",
+      "color": "#83b4b0"
+    },
+    {
+      "name": "Spark hush",
+      "cure": 512,
+      "sequence": [
+        6,
+        4,
+        2
+      ],
+      "effect": "Cures spark sneezes",
+      "note": "Rosewater, moss, then dew cool the sparks and calm sneezes.",
+      "color": "#b6b894"
+    },
+    {
+      "name": "Single voice",
+      "cure": 1024,
+      "sequence": [
+        8,
+        5,
+        9
+      ],
+      "effect": "Cures echo voice",
+      "note": "Valerian, honey, then silverleaf bring wandering echoes home.",
+      "color": "#a7b4ce"
+    },
+    {
+      "name": "Dusk veil",
+      "cure": 2048,
+      "sequence": [
+        11,
+        3,
+        6
+      ],
+      "effect": "Cures glowing hands",
+      "note": "Burdock, lavender, then rosewater dim an unwanted glow.",
+      "color": "#ba9fb5"
+    }
+  ],
+  "art_prompt": "Use case: illustration-story. Create a game character sprite sheet for a cosy woodland apothecary. ONE character: {character}. Hand-painted storybook watercolour, textured warm muted pigments, fine brown outlines. Transparent background. Exactly 3 columns by 3 rows equally spaced sprite cells, 1536x1152 total, each 512x384 cell. Each cell repeats the exact same front-facing waist-up character, direct eye contact, head and torso fully inside the cell, hands below bottom edge. Fixed body, hair, clothing, pose and alignment across all nine cells. Change ONLY eyelids and mouth. Row 1 neutral mouth, row 2 gentle smile, row 3 concerned frown. Columns 1 open eyes, 2 half-closed eyes, 3 fully closed eyes. No text, no grid lines, no props crossing cell boundaries. Soft warm lighting. Detailed expressive adult face. Torso fills bottom of each cell, head near upper centre."
+}

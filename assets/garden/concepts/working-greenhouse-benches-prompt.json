@@ -1,0 +1,17 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "date": "2026-11-13",
+  "references": [
+    {
+      "path": "C:/Users/biola/AppData/Local/Temp/codex-clipboard-a594a3c4-f874-4cac-87a4-18a38af7a87b.png",
+      "role": "User-provided layout and raised bench reference"
+    },
+    {
+      "path": "assets/garden/concepts/window-beds-conservatory-balanced.png",
+      "role": "Established greenhouse illustration aesthetic"
+    }
+  ],
+  "path": "assets/garden/concepts/working-greenhouse-benches.png",
+  "source": "C:/Users/biola/.codex/generated_images/01a1d11d-8b19-76c3-8d53-40a56d64f6cb/exec-ea4350f5-8511-4e1e-a280-f58cb6fdb256.png",
+  "prompt": "Use case: style-transfer and environment redesign. Image 1 is the LAYOUT AND SPATIAL REFERENCE provided by the user. Image 2 is the ESTABLISHED HEARTHBREW GREENHOUSE AESTHETIC reference. Create one landscape 16:10 illustrated game environment that strongly resembles image 1 in its practical greenhouse layout and intimate perspective, while unmistakably using image 2's warm hand-painted watercolor/gouache, delicate ink outlines, sage-green timber, golden sunlight, glass roof, arched windows, soft storybook forms and jewel-colored bottle accents. Composition: eye-level first-person view from the greenhouse entrance looking down a moderately narrow CENTRAL AISLE toward the far glazed end. Long WAIST-HIGH WOODEN GROWING BENCHES run continuously down BOTH SIDES against the windows, with a short connecting planted bench beneath the far windows. The RIGHT bench is particularly prominent, running from the near lower-right foreground into the far middle distance, with visible legs, shelf storage, wooden cross-braces and baskets underneath, like the real growing benches in image 1. The left bench parallels it, somewhat narrower, with a few apothecary jars on a small upper shelf. The growing surfaces are broad shallow trays of rich soil and mixed young and mature herbs in restrained practical plantings, not giant mounds of flowers or enormous solid planter walls. Keep the aisle comfortably walkable and clearly defined, occupying about the central quarter to third of the room, not a huge empty floor. Use honey-colored brick or timber paving with soft diagonal window shadows. Curving sage timber roof ribs and transparent panes overhead; the far end can have gently curved arched glazing to retain the favored alcove feel. Integrate thicker climbing vines and leafy greenery along the RIGHT structural wall and roof supports, taking inspiration from the lush planted wall of image 1, but do not copy its sculpted tree face, giant root statue, theatrical hanging pods, modern fittings or photorealistic 3D style. One modest hanging brass lantern, terracotta pots, copper watering can, baskets and a small selection of bottles. Warm inviting working herbalist greenhouse, realistic usable bench arrangement rendered in the established illustrated aesthetic. No people, hands, labels, text, UI, logo or watermark."
+}

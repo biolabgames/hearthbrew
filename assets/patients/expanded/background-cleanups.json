@@ -1,0 +1,18 @@
+{
+  "tool": "built-in imagegen",
+  "operation": "background-extraction",
+  "characters": [
+    {
+      "name": "wren",
+      "prompt": "Use case: background-extraction. Edit the supplied wren game sprite sheet ONLY to remove ALL white/off-white backgrounds, any baked checkerboard pattern, and pale background haze around the character. Set all background pixels to true alpha ZERO, retaining antialiased character edges. Preserve the exact 1536x1024 canvas, exact 3-column 3-row layout, all nine bust positions, character identity, face, skin, hair, clothes and nine facial expressions. Do not move, resize, crop, restyle or redraw the character. Keep the character opaque. No solid backdrop, no painted backdrop, no checkerboard pixels. Output genuine RGBA transparency around each bust."
+    },
+    {
+      "name": "alder",
+      "prompt": "Use case: background-extraction. Edit the supplied alder game sprite sheet ONLY to remove ALL white/off-white backgrounds, any baked checkerboard pattern, and pale background haze around the character. Set all background pixels to true alpha ZERO, retaining antialiased character edges. Preserve the exact 1536x1024 canvas, exact 3-column 3-row layout, all nine bust positions, character identity, face, skin, hair, clothes and nine facial expressions. Do not move, resize, crop, restyle or redraw the character. Keep the character opaque. No solid backdrop, no painted backdrop, no checkerboard pixels. Output genuine RGBA transparency around each bust."
+    },
+    {
+      "name": "hazel",
+      "prompt": "Use case: background-extraction. Edit the supplied hazel game sprite sheet ONLY to remove ALL white/off-white backgrounds, any baked checkerboard pattern, and pale background haze around the character. Set all background pixels to true alpha ZERO, retaining antialiased character edges. Preserve the exact 1536x1024 canvas, exact 3-column 3-row layout, all nine bust positions, character identity, face, skin, hair, clothes and nine facial expressions. Do not move, resize, crop, restyle or redraw the character. Keep the character opaque. No solid backdrop, no painted backdrop, no checkerboard pixels. Output genuine RGBA transparency around each bust."
+    }
+  ]
+}

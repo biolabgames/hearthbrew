@@ -1,0 +1,43 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/catalog.gd" id="1_4vv2d"]
+
+[resource]
+script = ExtResource("1_4vv2d")
+entries = Array[Dictionary]([{
+"color": "#f4dfb4",
+"description": "A soft, creamy base.",
+"name": "Moonmilk",
+"short": "Moonmilk",
+"symbol": "moon"
+}, {
+"color": "#ed866a",
+"description": "A little bottled sunshine.",
+"name": "Ember nectar",
+"short": "Ember",
+"symbol": "flame"
+}, {
+"color": "#6ebbc8",
+"description": "Cool and clear as dawn.",
+"name": "Morning dew",
+"short": "Dew",
+"symbol": "drop"
+}, {
+"color": "#ae8bc7",
+"description": "Dreamy, fragrant vapour.",
+"name": "Lavender mist",
+"short": "Lavender",
+"symbol": "flower"
+}, {
+"color": "#8bb77a",
+"description": "Wild green woodland magic.",
+"name": "Moss cordial",
+"short": "Moss",
+"symbol": "leaf"
+}, {
+"color": "#e8b34e",
+"description": "Golden, sticky and stubborn.",
+"name": "Sun honey",
+"short": "Honey",
+"symbol": "sun"
+}, {"name": "Rosewater", "short": "Rose", "color": "#dc9ca9", "description": "A fragrant floral tonic.", "symbol": "leaf"}, {"name": "Ginger tincture", "short": "Ginger", "color": "#d79a55", "description": "A warm, peppery root extract.", "symbol": "leaf"}, {"name": "Valerian drops", "short": "Valerian", "color": "#9eabc9", "description": "A sleepy blue woodland infusion.", "symbol": "leaf"}, {"name": "Silverleaf extract", "short": "Silverleaf", "color": "#b4cbbd", "description": "A bright, grounding leaf essence.", "symbol": "leaf"}, {"name": "Starlight essence", "short": "Starlight", "color": "#ddd28c", "description": "A glimmer gathered after sunset.", "symbol": "leaf"}, {"name": "Burdock bitters", "short": "Burdock", "color": "#ae9276", "description": "An earthy, clarifying root cordial.", "symbol": "leaf"}])

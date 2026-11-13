@@ -1,0 +1,120 @@
+[gd_scene format=3]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pxiyf"]
+bg_color = Color(0.7176471, 0.77254903, 0.69411767, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.5764706, 0.41960785, 0.28235295, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_br1u3"]
+bg_color = Color(0.72156864, 0.5803922, 0.3882353, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.5764706, 0.41960785, 0.28235295, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b6xnj"]
+bg_color = Color(1, 0.9411765, 0.7921569, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.5764706, 0.41960785, 0.28235295, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[node name="MossBottle" type="Node2D" unique_id=1299141686]
+
+[node name="Glass" type="Polygon2D" parent="." unique_id=255946404]
+scale = Vector2(0.57, 0.57)
+color = Color(0.9098039, 0.9254902, 0.84705883, 1)
+polygon = PackedVector2Array(-13, -52, 13, -52, 13, -27, 32, -10, 37, 14, 27, 34, -27, 34, -37, 14, -32, -10, -13, -27)
+
+[node name="GlassOutline" type="Line2D" parent="." unique_id=720706520]
+scale = Vector2(0.57, 0.57)
+points = PackedVector2Array(-13, -52, 13, -52, 13, -27, 32, -10, 37, 14, 27, 34, -27, 34, -37, 14, -32, -10, -13, -27, -13, -52)
+width = 3.0
+default_color = Color(0.3764706, 0.27058825, 0.21176471, 1)
+antialiased = true
+
+[node name="LiquidSurface" type="Polygon2D" parent="." unique_id=1124926937]
+scale = Vector2(0.57, 0.57)
+color = Color(0.54509807, 0.7176471, 0.47843137, 1)
+polygon = PackedVector2Array(29, 9, 28.751902, 11.74105, 28.011848, 14.4352, 26.792507, 17.036352, 25.114737, 19.5, 23.007246, 21.783989, 20.506096, 23.849243, 17.654081, 25.66042, 14.5, 27.186533, 11.097819, 28.40147, 7.505752, 29.284443, 3.7852595, 29.820343, 1.7756792e-15, 30, -3.7852595, 29.820343, -7.505752, 29.284443, -11.097819, 28.40147, -14.5, 27.186533, -17.654081, 25.66042, -20.506096, 23.849243, -23.007246, 21.783989, -25.114737, 19.5, -26.792507, 17.036352, -28.011848, 14.4352, -28.751902, 11.74105, -29, 9, -28.751902, 6.25895, -28.011848, 3.5648003, -26.792507, 0.96364784, -25.114737, -1.5, -23.007246, -3.78399, -20.506096, -5.849242, -17.654081, -7.6604195, -14.5, -9.186533, -11.097819, -10.40147, -7.505752, -11.284443, -3.7852595, -11.820343, -5.3270376e-15, -12, 3.7852595, -11.820343, 7.505752, -11.284443, 11.097819, -10.40147, 14.5, -9.186533, 17.654081, -7.6604195, 20.506096, -5.849242, 23.007246, -3.78399, 25.114737, -1.5, 26.792507, 0.96364784, 28.011848, 3.5648003, 28.751902, 6.25895, 29, 9)
+
+[node name="LiquidBody" type="Polygon2D" parent="." unique_id=1497221404]
+scale = Vector2(0.57, 0.57)
+color = Color(0.54509807, 0.7176471, 0.47843137, 1)
+polygon = PackedVector2Array(-27, 0, 27, 0, 30, 14, 22, 29, -22, 29, -30, 14)
+
+[node name="LiquidOutline" type="Line2D" parent="." unique_id=34459994]
+scale = Vector2(0.57, 0.57)
+points = PackedVector2Array(-27, 0, 27, 0, 30, 14, 22, 29, -22, 29, -30, 14, -27, 0)
+width = 0.8
+default_color = Color(0.3764706, 0.27058825, 0.21176471, 1)
+antialiased = true
+
+[node name="GlassHighlight" type="Line2D" parent="." unique_id=368766593]
+scale = Vector2(0.57, 0.57)
+points = PackedVector2Array(-23, -13, -27, 10)
+width = 5.0
+default_color = Color(1, 1, 0.91, 0.75)
+antialiased = true
+
+[node name="LiquidHighlight" type="Line2D" parent="." unique_id=439997412]
+scale = Vector2(0.57, 0.57)
+points = PackedVector2Array(19, 15, 14, 24)
+width = 3.0
+default_color = Color(0.6815686, 0.80235296, 0.634902, 1)
+antialiased = true
+
+[node name="NeckBand" type="Panel" parent="." unique_id=1459398896]
+offset_left = -9.12
+offset_top = -16.53
+offset_right = 22.880001
+offset_bottom = -2.5300007
+scale = Vector2(0.57, 0.57)
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_pxiyf")
+
+[node name="Cork" type="Panel" parent="." unique_id=1008036987]
+offset_left = -8.55
+offset_top = -34.2
+offset_right = 21.45
+offset_bottom = -22.2
+scale = Vector2(0.57, 0.57)
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_br1u3")
+
+[node name="PaperLabel" type="Panel" parent="." unique_id=2134741670]
+offset_left = -9.69
+offset_top = -1.14
+offset_right = 24.310001
+offset_bottom = 22.86
+scale = Vector2(0.57, 0.57)
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_b6xnj")
+
+[node name="SymbolPolygon2D11" type="Polygon2D" parent="." unique_id=1581555529]
+scale = Vector2(0.57, 0.57)
+color = Color(0.38156864, 0.50235295, 0.33490196, 1)
+polygon = PackedVector2Array(9, 10, 8.923004, 10.704842, 8.693333, 11.397623, 8.314916, 12.06649, 7.7942286, 12.7, 7.14018, 13.287312, 6.363961, 13.818377, 5.4788527, 14.284108, 4.5, 14.676537, 3.444151, 14.98895, 2.3293715, 15.216, 1.1747358, 15.353802, 5.5107286e-16, 15.4, -1.1747358, 15.353802, -2.3293715, 15.216, -3.444151, 14.98895, -4.5, 14.676537, -5.4788527, 14.284108, -6.363961, 13.818377, -7.14018, 13.287312, -7.7942286, 12.7, -8.314916, 12.06649, -8.693333, 11.397623, -8.923004, 10.704842, -9, 10, -8.923004, 9.295158, -8.693333, 8.602377, -8.314916, 7.9335093, -7.7942286, 7.3, -7.14018, 6.7126884, -6.363961, 6.1816235, -5.4788527, 5.715892, -4.5, 5.323463, -3.444151, 5.01105, -2.3293715, 4.7840004, -1.1747358, 4.646198, -1.6532186e-15, 4.6, 1.1747358, 4.646198, 2.3293715, 4.7840004, 3.444151, 5.01105, 4.5, 5.323463, 5.4788527, 5.715892, 6.363961, 6.1816235, 7.14018, 6.7126884, 7.7942286, 7.3, 8.314916, 7.9335093, 8.693333, 8.602377, 8.923004, 9.295158, 9, 10)
+
+[node name="SymbolLine2D12" type="Line2D" parent="." unique_id=202062253]
+scale = Vector2(0.57, 0.57)
+points = PackedVector2Array(-9, 10, 9, 10)
+width = 1.0
+default_color = Color(0.3764706, 0.27058825, 0.21176471, 1)

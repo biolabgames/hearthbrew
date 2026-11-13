@@ -1,0 +1,245 @@
+{
+	"comparisons": [
+		{
+			"changed_inside_face": 6204,
+			"changed_outside_face": 0,
+			"mood": "delighted",
+			"patient": "Poppy"
+		},
+		{
+			"changed_inside_face": 6009,
+			"changed_outside_face": 0,
+			"mood": "disgust",
+			"patient": "Poppy"
+		},
+		{
+			"changed_inside_face": 4384,
+			"changed_outside_face": 0,
+			"mood": "delighted",
+			"patient": "Pip"
+		},
+		{
+			"changed_inside_face": 4307,
+			"changed_outside_face": 0,
+			"mood": "disgust",
+			"patient": "Pip"
+		},
+		{
+			"changed_inside_face": 6227,
+			"changed_outside_face": 0,
+			"mood": "delighted",
+			"patient": "Juniper"
+		},
+		{
+			"changed_inside_face": 6132,
+			"changed_outside_face": 0,
+			"mood": "disgust",
+			"patient": "Juniper"
+		},
+		{
+			"changed_inside_face": 7680,
+			"changed_outside_face": 0,
+			"mood": "delighted",
+			"patient": "Bramble"
+		},
+		{
+			"changed_inside_face": 7560,
+			"changed_outside_face": 0,
+			"mood": "disgust",
+			"patient": "Bramble"
+		},
+		{
+			"changed_inside_face": 5799,
+			"changed_outside_face": 0,
+			"mood": "delighted",
+			"patient": "Mallow"
+		},
+		{
+			"changed_inside_face": 5504,
+			"changed_outside_face": 0,
+			"mood": "disgust",
+			"patient": "Mallow"
+		},
+		{
+			"changed_inside_face": 7571,
+			"changed_outside_face": 0,
+			"mood": "delighted",
+			"patient": "Rowan"
+		},
+		{
+			"changed_inside_face": 7437,
+			"changed_outside_face": 0,
+			"mood": "disgust",
+			"patient": "Rowan"
+		},
+		{
+			"changed_inside_face": 24505,
+			"changed_outside_face": 0,
+			"mood": "delighted",
+			"patient": "Hazel"
+		},
+		{
+			"changed_inside_face": 24432,
+			"changed_outside_face": 0,
+			"mood": "disgust",
+			"patient": "Hazel"
+		},
+		{
+			"changed_inside_face": 24739,
+			"changed_outside_face": 0,
+			"mood": "delighted",
+			"patient": "Otis"
+		},
+		{
+			"changed_inside_face": 24529,
+			"changed_outside_face": 0,
+			"mood": "disgust",
+			"patient": "Otis"
+		},
+		{
+			"changed_inside_face": 24673,
+			"changed_outside_face": 0,
+			"mood": "delighted",
+			"patient": "Fern"
+		},
+		{
+			"changed_inside_face": 24638,
+			"changed_outside_face": 0,
+			"mood": "disgust",
+			"patient": "Fern"
+		},
+		{
+			"changed_inside_face": 21877,
+			"changed_outside_face": 0,
+			"mood": "delighted",
+			"patient": "Cedar"
+		},
+		{
+			"changed_inside_face": 21926,
+			"changed_outside_face": 0,
+			"mood": "disgust",
+			"patient": "Cedar"
+		},
+		{
+			"changed_inside_face": 24415,
+			"changed_outside_face": 0,
+			"mood": "delighted",
+			"patient": "Tansy"
+		},
+		{
+			"changed_inside_face": 24447,
+			"changed_outside_face": 0,
+			"mood": "disgust",
+			"patient": "Tansy"
+		},
+		{
+			"changed_inside_face": 24723,
+			"changed_outside_face": 0,
+			"mood": "delighted",
+			"patient": "Hugo"
+		},
+		{
+			"changed_inside_face": 24675,
+			"changed_outside_face": 0,
+			"mood": "disgust",
+			"patient": "Hugo"
+		},
+		{
+			"changed_inside_face": 24432,
+			"changed_outside_face": 0,
+			"mood": "delighted",
+			"patient": "Iris"
+		},
+		{
+			"changed_inside_face": 24414,
+			"changed_outside_face": 0,
+			"mood": "disgust",
+			"patient": "Iris"
+		},
+		{
+			"changed_inside_face": 24455,
+			"changed_outside_face": 0,
+			"mood": "delighted",
+			"patient": "Alder"
+		},
+		{
+			"changed_inside_face": 24410,
+			"changed_outside_face": 0,
+			"mood": "disgust",
+			"patient": "Alder"
+		},
+		{
+			"changed_inside_face": 24615,
+			"changed_outside_face": 0,
+			"mood": "delighted",
+			"patient": "Clover"
+		},
+		{
+			"changed_inside_face": 24605,
+			"changed_outside_face": 0,
+			"mood": "disgust",
+			"patient": "Clover"
+		},
+		{
+			"changed_inside_face": 24529,
+			"changed_outside_face": 0,
+			"mood": "delighted",
+			"patient": "Wren"
+		},
+		{
+			"changed_inside_face": 24491,
+			"changed_outside_face": 0,
+			"mood": "disgust",
+			"patient": "Wren"
+		},
+		{
+			"changed_inside_face": 24663,
+			"changed_outside_face": 0,
+			"mood": "delighted",
+			"patient": "Saffron"
+		},
+		{
+			"changed_inside_face": 24627,
+			"changed_outside_face": 0,
+			"mood": "disgust",
+			"patient": "Saffron"
+		},
+		{
+			"changed_inside_face": 22145,
+			"changed_outside_face": 0,
+			"mood": "delighted",
+			"patient": "Felix"
+		},
+		{
+			"changed_inside_face": 22133,
+			"changed_outside_face": 0,
+			"mood": "disgust",
+			"patient": "Felix"
+		},
+		{
+			"changed_inside_face": 24557,
+			"changed_outside_face": 0,
+			"mood": "delighted",
+			"patient": "Dahlia"
+		},
+		{
+			"changed_inside_face": 24537,
+			"changed_outside_face": 0,
+			"mood": "disgust",
+			"patient": "Dahlia"
+		},
+		{
+			"changed_inside_face": 21769,
+			"changed_outside_face": 0,
+			"mood": "delighted",
+			"patient": "Moss"
+		},
+		{
+			"changed_inside_face": 21940,
+			"changed_outside_face": 0,
+			"mood": "disgust",
+			"patient": "Moss"
+		}
+	],
+	"failures": 0
+}

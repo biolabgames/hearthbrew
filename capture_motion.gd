@@ -22,7 +22,7 @@ func capture():
 		game.animation_time = (frame+0.01)/12.0+(game.pour_duration() if mode == 'stir' else 0.0)
 		game.clock = game.animation_time
 		game._process(0.0)
-		game.queue_redraw()
+		game.update_presentation()
 		await process_frame
 		await RenderingServer.frame_post_draw
 		var error = root.get_texture().get_image().save_png(target+'/frame-%03d.png' % frame)

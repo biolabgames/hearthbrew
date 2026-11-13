@@ -1,0 +1,35 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "date": "2026-11-12",
+  "assets": [
+    {
+      "path": "assets/garden/ingredient-garden.png",
+      "source": "output/outdoor-garden/07-courtyard-no-bench.png",
+      "role": "Approved production courtyard: two bare-soil areas, straight stone walls, central crazy paving with left-door T-junction, flush edging, no potting bench or timber beds.",
+      "prompt_file": "output/outdoor-garden/07-prompt.txt"
+    },
+    {
+      "path": "assets/garden/ingredient-plants.png",
+      "source": "C:/Users/biola/.codex/generated_images/01a1d27b-c103-70d2-94e4-55c5fda8d32a/exec-ced42af7-4130-4393-87e4-ff32237d03e1.png",
+      "role": "Transparent 3x2 botanical atlas. Top: lavender, moss, rose. Bottom: ginger, valerian, burdock. Growth stages use scaled silhouettes.",
+      "prompt_file": "assets/garden/ingredient-plants-prompt.txt",
+      "style_reference": "assets/garden/herb-plants.png",
+      "transparent_background": true
+    },
+    {
+      "path": "assets/garden/herb-garden.png",
+      "source": "C:/Users/biola/.codex/generated_images/01a1d11d-8b19-76c3-8d53-40a56d64f6cb/exec-121a61f2-8e73-4324-a0d3-17e40f604d78.png",
+      "role": "Full-screen garden background. One continuous raised timber plot, no internal gaps or partitions, narrow far edge and wide near edge.",
+      "initial_style_reference": "assets/apothecary.png",
+      "initial_prompt": "Use case: stylized-concept. Asset type: full-screen landscape 16:10 background for a 2D point-and-click woodland apothecary game. Input image 1 is a STYLE REFERENCE ONLY, the existing apothecary interior. Paint its actual outdoor herb garden, matching its warm watercolor and gouache texture, delicate slightly wonky ink outlines, softly rounded forms, honey sunlight, sage-green wood, terracotta and lush storybook botanical detail. Camera: slightly elevated first-person looking across a small enclosed cottage herb garden, enough downward angle to see the soil. Six clearly separate low wooden raised herb beds in TWO ROWS OF THREE across the LEFT THREE QUARTERS of the composition, their interiors completely EMPTY rich brown soil so the game can overlay growing plants. Back-row bed centers approximately (18%,44%), (38%,44%), (59%,44%); front-row centers approximately (16%,73%), (38%,73%), (60%,73%). Each bed broad, low, about 17% of image width, with weathered sage/ochre timber edges, clear stepping-stone paths between them. Keep all six soil surfaces visible, clean and unplanted. The setting must feel like a real inviting lived-in herb garden: cottage wall and arched sage-green door in back left, ivy-covered low stone garden wall, loose peripheral lavender/rosemary/chamomile and foxgloves, archway opening to woodland, sun-dappled flagstones, small terracotta pots. At RIGHT EDGE a rustic potting table with seed envelopes, woven basket, watering can and modest potted herbs; this occupies the rightmost quarter and supports a small game information panel over it. Background foliage frames edges; calm area across top 15% for a game title. Rich atmospheric hand-painted environment, not a diagram or UI mockup. No people, no text, no lettering, no labels, no UI, no cards, no grid lines, no logos, no watermark. Do not draw plants inside the six designated soil beds. Preserve the reference's cohesive illustration quality.",
+      "final_edit_prompt": "Use case: precise-object-edit. EDIT TARGET is this painted garden. Correct ONLY the perspective of the single large timber herb bed. Its two BACK/TOP corners are too far apart. Bring them substantially closer together: place the back-left corner at approximately 25% of canvas width and 43% of canvas height, and the back-right corner at approximately 67% width and 43% height. Keep the two FRONT/BOTTOM corners wide apart at approximately 2% width, 87% height and 82% width, 87% height. Thus the bed is a strongly receding TRAPEZOID: the far/back edge is only about HALF the width of the near/front edge; both long side boards converge inward markedly toward the top. It remains exactly ONE continuous soil plot, no internal partitions, paths, separate boxes or gaps. Retain chunky straight weathered sage-green wooden planks, honey-yellow worn top surfaces, woodgrain, square corner posts and golden nail heads. Show physically consistent joinery, visible outer board faces and soil top in this elevated three-quarter perspective. Newly exposed space OUTSIDE the converging side boards is the existing garden's sunlit flagstones and low foliage. Keep the cottage, garden arch, stone wall, woodland, potting table, watering can, flowers, overall lighting and watercolor/gouache style unchanged. No text or UI. Crucial: TOP TWO CORNERS MUCH CLOSER TOGETHER than bottom corners."
+    },
+    {
+      "path": "assets/garden/herb-plants.png",
+      "source": "C:/Users/biola/.codex/generated_images/01a1d11d-8b19-76c3-8d53-40a56d64f6cb/exec-6c18c363-45e2-413d-a0e1-368d9e0cfa69.png",
+      "role": "Genuine-alpha 2x2 plant atlas; Moonleaf top-left, Emberroot top-right, Silverleaf bottom-left, Hushbell bottom-right.",
+      "prompt": "Use case: stylized-concept. Asset type: transparent plant sprite atlas for the herb garden in this woodland apothecary game. Input image 1 is a STYLE REFERENCE ONLY. Create a clean 2 by 2 sprite atlas of FOUR DISTINCT LUSH MATURE HERB CLUMPS, entirely isolated on genuinely transparent background. Each clump is a detailed natural growing herb plant, not an icon or diagram; watercolor and gouache textures, warm sunlight, delicate hand-ink outlines, matching the painted garden reference. All four are viewed at a slightly elevated front angle and rooted at their lower edge; no planters, pots, soil rectangles or garden beds. Top-left quadrant: MOONLEAF, a dense rounded clump of soft sage-green oval leaves with pale mint undersides and tiny cream buds. Top-right quadrant: EMBERROOT, a low luxuriant herb with deep green serrated foliage, copper-red stems and small golden orange flowers, root crown subtly amber. Bottom-left quadrant: SILVERLEAF, a beautiful airy branching herb with slender silvery blue-green lance-shaped leaves, delicate pale highlights. Bottom-right quadrant: HUSHBELL, a full green clump with gracefully arching stems of small lavender bell-shaped flowers. Keep each complete plant within its own quadrant with at least 12% empty transparent margin, no overlap between quadrants, comparable apparent size, natural organic silhouettes, consistent scale and illumination. No text, labels, letters, frames, background, shadows extending outside each plant, watermark, UI. Square canvas, equal 2x2 quadrants.",
+      "transparent_background": true
+    }
+  ]
+}

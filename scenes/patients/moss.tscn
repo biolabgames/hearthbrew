@@ -1,0 +1,23 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/patients/expanded/moss.png" id="portrait"]
+[ext_resource type="Shader" path="res://assets/patients/expanded/face_overlay.gdshader" id="face_shader"]
+
+[sub_resource type="ShaderMaterial" id="face_material"]
+shader = ExtResource("face_shader")
+
+[node name="Moss" type="Node2D"]
+metadata/full_portrait = true
+
+[node name="Body" type="Sprite2D" parent="."]
+texture = ExtResource("portrait")
+centered = false
+hframes = 3
+vframes = 3
+
+[node name="Face" type="Sprite2D" parent="."]
+material = SubResource("face_material")
+texture = ExtResource("portrait")
+centered = false
+hframes = 3
+vframes = 3

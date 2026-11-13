@@ -1,4 +1,11 @@
-# Current hand animation â€” 6 November 2026
+<!-- Current prop-free full-arm implementation: HANDS_ANIMATION.md. -->
+# Active generated full-arm renders — 10 November 2026
+
+The complete generated hands and forearms are restored together. See HANDS_ANIMATION.md for playback and separate prop interactions.
+
+The active animation has been redrawn with bare forearms and simplified hand detail.
+Baggy sleeves and cuffs have been removed across pouring, stirring and idle frames.
+See ROTOSCOPE_HANDS.md and assets/rotoscope/bare-arm-sources/prompt.json.
 
 The current build also includes six illustrated human patients across the counter, each with
 nine expression/blink frames. Patient information and recipe controls are on the right-hand

@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="SpriteFrames" path="res://resources/hands/empty_hands.tres" id="1"]
+
+[ext_resource type="Script" path="res://scripts/full_arm_sprite.gd" id="2"]
+
+[node name="LeftHand" type="AnimatedSprite2D"]
+script = ExtResource("2")
+sprite_frames = ExtResource("1")
+animation = &"idle"
+centered = false
+texture_filter = 2
+
+[node name="CarriedProp" type="Node2D" parent="."]
+show_behind_parent = true
+
+[node name="FullArm" type="Polygon2D" parent="."]
+antialiased = true

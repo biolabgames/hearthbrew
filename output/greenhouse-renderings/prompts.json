@@ -1,0 +1,12 @@
+{
+  "tool": "Built-in image_gen",
+  "shared_prompt": "Use case: stylized-concept. Create ONE new landscape rendering inspired by the input reference image, which is a composition and style reference, not a target to duplicate. Keep the current overall layout: eye-level wide view inside a cozy greenhouse, pitched glass roof and timber rafters, back wall of gridded windows, U-shaped planted benches along the walls, a large rectangular planted island in the foreground, brick aisle around it, glass doors on the right and an apothecary shelf on the left, hanging central lantern. Match the rich hand-painted storybook game-background style, crisp detailed foliage, worn sage-green and golden wooden furniture, terracotta brick floor, charming baskets and pots, lush abundance and warm luminous colors. Reinterpret individual plants, prop designs, window proportions and details so this is clearly a new rendering rather than an exact copy. No people, text, logos, watermark, border, or collage. Wide aspect ratio about 16:10. ",
+  "bench_adjustments": " Bench layout must be redesigned slightly with physically correct consistent single-camera perspective: rear bench level against back wall; side benches recede toward the same horizon with straight aligned edges and believable corner joins; all vertical legs vertical and grounded on the floor; central island centered with a wider front edge and narrower far edge, clear walkable aisles on both sides. Adjust bench lengths, corners, positions and dimensions to correct the reference's perspective ambiguities; do not mechanically copy its bench geometry. ",
+  "variants": [
+    "Spring morning: chamomile, pink blossom, lavender, ferns; revised smaller island and simple frames.",
+    "Midsummer: orange calendula, salvia, daisies and lush herbs; revised narrower island and simple frames.",
+    "Rainy morning: lantern glow, ferns, sage, lavender and white bellflowers.",
+    "Autumn: golden light, calendula, asters, yarrow, rosemary and silver sage.",
+    "Sunset: peach lavender sky, lavender, jasmine and peach flowers."
+  ]
+}

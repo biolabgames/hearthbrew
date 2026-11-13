@@ -1,0 +1,96 @@
+[gd_scene format=3 uid="uid://ltdrl88gk8tf"]
+
+[ext_resource type="Script" uid="uid://djico6mo5ji2b" path="res://patient_sprites.gd" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/patients/poppy.tscn" id="4"]
+[ext_resource type="PackedScene" path="res://scenes/patients/pip.tscn" id="5"]
+[ext_resource type="PackedScene" path="res://scenes/patients/juniper.tscn" id="6"]
+[ext_resource type="PackedScene" path="res://scenes/patients/bramble.tscn" id="7"]
+[ext_resource type="PackedScene" path="res://scenes/patients/mallow.tscn" id="8"]
+[ext_resource type="PackedScene" path="res://scenes/patients/rowan.tscn" id="9"]
+[ext_resource type="PackedScene" path="res://scenes/patients/alder.tscn" id="alder"]
+[ext_resource type="PackedScene" path="res://scenes/patients/cedar.tscn" id="cedar"]
+[ext_resource type="PackedScene" path="res://scenes/patients/clover.tscn" id="clover"]
+[ext_resource type="PackedScene" path="res://scenes/patients/dahlia.tscn" id="dahlia"]
+[ext_resource type="PackedScene" path="res://scenes/patients/felix.tscn" id="felix"]
+[ext_resource type="PackedScene" path="res://scenes/patients/fern.tscn" id="fern"]
+[ext_resource type="PackedScene" path="res://scenes/patients/hazel.tscn" id="hazel"]
+[ext_resource type="PackedScene" path="res://scenes/patients/hugo.tscn" id="hugo"]
+[ext_resource type="PackedScene" path="res://scenes/patients/iris.tscn" id="iris"]
+[ext_resource type="PackedScene" path="res://scenes/patients/moss.tscn" id="moss"]
+[ext_resource type="PackedScene" path="res://scenes/patients/otis.tscn" id="otis"]
+[ext_resource type="PackedScene" path="res://scenes/effects/patient_effects.tscn" id="patient_effects"]
+[ext_resource type="PackedScene" path="res://scenes/patients/saffron.tscn" id="saffron"]
+[ext_resource type="Script" uid="uid://dgnwuedn3j2ts" path="res://scripts/symptom_effects.gd" id="symptom_overlay"]
+[ext_resource type="PackedScene" path="res://scenes/patients/tansy.tscn" id="tansy"]
+[ext_resource type="PackedScene" path="res://scenes/patients/wren.tscn" id="wren"]
+
+[node name="Patients" type="Node2D" unique_id=1692280569]
+script = ExtResource("3")
+
+[node name="Poppy" parent="." unique_id=2017937169 instance=ExtResource("4")]
+visible = false
+
+[node name="Pip" parent="." unique_id=1621222395 instance=ExtResource("5")]
+visible = false
+
+[node name="Juniper" parent="." unique_id=1872151543 instance=ExtResource("6")]
+visible = false
+
+[node name="Bramble" parent="." unique_id=1189716340 instance=ExtResource("7")]
+visible = false
+
+[node name="Mallow" parent="." unique_id=1315793829 instance=ExtResource("8")]
+visible = false
+
+[node name="Rowan" parent="." unique_id=1967517471 instance=ExtResource("9")]
+visible = false
+
+[node name="Effects" parent="." unique_id=1175292940 instance=ExtResource("patient_effects")]
+visible = false
+
+[node name="SymptomOverlay" type="Node2D" parent="." unique_id=1582453006]
+visible = false
+z_index = 1
+script = ExtResource("symptom_overlay")
+
+[node name="Hazel" parent="." unique_id=795085548 instance=ExtResource("hazel")]
+visible = false
+
+[node name="Otis" parent="." unique_id=1714090130 instance=ExtResource("otis")]
+visible = false
+
+[node name="Fern" parent="." unique_id=808153917 instance=ExtResource("fern")]
+visible = false
+
+[node name="Cedar" parent="." unique_id=904294337 instance=ExtResource("cedar")]
+visible = false
+
+[node name="Tansy" parent="." unique_id=794040273 instance=ExtResource("tansy")]
+visible = false
+
+[node name="Hugo" parent="." unique_id=165723446 instance=ExtResource("hugo")]
+visible = false
+
+[node name="Iris" parent="." unique_id=883686099 instance=ExtResource("iris")]
+visible = false
+
+[node name="Alder" parent="." unique_id=1178729770 instance=ExtResource("alder")]
+visible = false
+
+[node name="Clover" parent="." unique_id=636471815 instance=ExtResource("clover")]
+visible = false
+
+[node name="Wren" parent="." unique_id=1546538030 instance=ExtResource("wren")]
+visible = false
+
+[node name="Saffron" parent="." unique_id=154356084 instance=ExtResource("saffron")]
+visible = false
+
+[node name="Felix" parent="." unique_id=2138421329 instance=ExtResource("felix")]
+visible = false
+
+[node name="Dahlia" parent="." unique_id=821850628 instance=ExtResource("dahlia")]
+visible = false
+
+[node name="Moss" parent="." unique_id=1320329424 instance=ExtResource("moss")]
+visible = false

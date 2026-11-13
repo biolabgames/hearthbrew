@@ -31,7 +31,7 @@ func capture():
 			game.patient_reaction_until = 100.0
 			game.animation_time = game.pour_duration()+seconds
 			game._process(0.0)
-			game.queue_redraw()
+			game.update_presentation()
 			await process_frame
 			await RenderingServer.frame_post_draw
 			var pixels = root.get_texture().get_image()

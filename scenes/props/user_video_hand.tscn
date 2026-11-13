@@ -1,0 +1,47 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/user_video_hand.gd" id="1"]
+
+[sub_resource type="Shader" id="SourceSkin"]
+code = "shader_type canvas_item;
+uniform float skin_mid = 0.45;
+void fragment() {
+ vec4 source = texture(TEXTURE, UV);
+ float skin = smoothstep(0.008,0.024,source.r-source.g)*smoothstep(0.02,0.050,source.r-source.b);
+ float light = clamp((dot(source.rgb,vec3(0.3333))-skin_mid)*2.4+0.68,0.15,0.95);
+ vec3 tone = mix(vec3(0.68,0.44,0.27),vec3(1.0,0.87,0.68),light);
+ COLOR = vec4(tone,skin);
+}"
+
+[sub_resource type="ShaderMaterial" id="SourceMaterial"]
+shader = SubResource("SourceSkin")
+
+[node name="UserVideoHand" type="Node2D"]
+script = ExtResource("1")
+texture_filter = 2
+
+[node name="Forearm" type="Polygon2D" parent="."]
+color = Color(0.94,0.75,0.54,1)
+antialiased = true
+
+[node name="ArmShadow" type="Polygon2D" parent="."]
+color = Color(0.46,0.25,0.12,0.12)
+antialiased = true
+
+[node name="ArmOutline" type="Line2D" parent="."]
+width = 1.6
+default_color = Color(0.40,0.28,0.18,0.8)
+antialiased = true
+
+[node name="CarriedProp" type="Node2D" parent="."]
+
+[node name="Graphic" type="Node2D" parent="."]
+
+[node name="Hand" type="Polygon2D" parent="Graphic"]
+material = SubResource("SourceMaterial")
+antialiased = true
+
+[node name="Contour" type="Line2D" parent="Graphic"]
+width = 1.2
+default_color = Color(0.40,0.28,0.18,0.4)
+antialiased = true

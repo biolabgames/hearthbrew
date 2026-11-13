@@ -1,0 +1,17 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "date": "2026-11-13",
+  "references": [
+    {
+      "path": "assets/garden/concepts/window-beds-conservatory-balanced.png",
+      "role": "Edit target; room architecture, camera and layout must remain unchanged"
+    },
+    {
+      "path": "assets/garden/concepts/working-greenhouse-benches.png",
+      "role": "Bench construction detail only"
+    }
+  ],
+  "path": "assets/garden/concepts/curved-conservatory-growing-benches.png",
+  "source": "C:/Users/biola/.codex/generated_images/01a1d11d-8b19-76c3-8d53-40a56d64f6cb/exec-d049c2ee-0301-44c0-bd81-cc806edca259.png",
+  "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET and must remain the SAME ROOM, SAME CAMERA and SAME COMPOSITION. Image 2 is ONLY a construction-detail reference for the idea of raised growing BENCHES with legs and storage beneath, NOT for room layout, viewpoint, walls, roof or plant arrangement. In IMAGE 1 replace ONLY the solid full-height timber fronts underneath its existing curved window-side planted bed with an OPEN FRAME OF GROWING BENCHES: sage-green wooden legs, slim rails, gentle diagonal braces and low storage shelves with a few wicker baskets and terracotta pots. Keep the planted soil surface and curved golden wooden rim at their existing height and footprint. The bench arrangement must follow the EXACT existing arc under the curved BACK windows, with the existing short return at the LEFT. There must be open space visible between the legs, so these clearly read as waist-high greenhouse growing benches rather than solid planter walls. Preserve the central open brick floor area, every curved back window, fan roof beam, cottage plaster wall and shelf at left, right-hand glass double doors, right potting table, lantern, vines, herb groups, sunlight, golden palette and hand-painted watercolor/gouache style from IMAGE 1. DO NOT turn the room into a long rectangular greenhouse; DO NOT move the camera into a central corridor; DO NOT copy image 2's straight roof, distant gabled end, dominant solid right wall, deep aisle or straight side-bench perspective. The final must look immediately like image 1 with its curved bed now supported on beautifully crafted open timber greenhouse bench legs. Only alter the structure below the existing planted top, keeping room architecture and spacing unchanged. No text, people, UI or watermark."
+}

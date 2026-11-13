@@ -1,0 +1,17 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/patients/layered/pip-body.png" id="1_jogqp"]
+[ext_resource type="Texture2D" path="res://assets/patients/layered/pip-faces.png" id="2_iry0x"]
+
+[node name="Pip" type="Node2D" unique_id=2128831120]
+
+[node name="Body" type="Sprite2D" parent="." unique_id=2047206129]
+texture = ExtResource("1_jogqp")
+centered = false
+
+[node name="Face" type="Sprite2D" parent="." unique_id=647755680]
+position = Vector2(200, 96)
+texture = ExtResource("2_iry0x")
+centered = false
+hframes = 3
+vframes = 3

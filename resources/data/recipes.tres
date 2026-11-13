@@ -1,0 +1,67 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/catalog.gd" id="1_pl0we"]
+
+[resource]
+script = ExtResource("1_pl0we")
+entries = Array[Dictionary]([{
+"color": "#79c9bc",
+"cure": 1,
+"effect": "Cures fever",
+"name": "Dewdrop draught",
+"note": "Moonmilk first, then morning dew. If the patient floats, it also causes shivers.",
+"sequence": [0, 2]
+}, {
+"color": "#edc29a",
+"cure": 2,
+"effect": "Cures shivers",
+"name": "Cloud blanket",
+"note": "Dew first, then moonmilk. The same pair, reversed, makes a warming remedy.",
+"sequence": [2, 0]
+}, {
+"color": "#c0a7c8",
+"cure": 4,
+"effect": "Cures floating",
+"name": "Rooted lullaby",
+"note": "Lavender, honey, then moonmilk. Calms the feet and brings them down to earth.",
+"sequence": [3, 5, 0]
+}, {
+"color": "#a5bd78",
+"cure": 8,
+"effect": "Cures stone skin",
+"name": "Softstep syrup",
+"note": "Moss, dew, then honey. Softens stone without making a puddle.",
+"sequence": [4, 2, 5]
+}, {
+"color": "#e9ad7e",
+"cure": 16,
+"effect": "Cures invisibility",
+"name": "Lantern cordial",
+"note": "Honey, lavender, then dew. Gives a missing face its outline again.",
+"sequence": [5, 3, 2]
+}, {
+"color": "#c29bb8",
+"cure": 32,
+"effect": "Cures hiccups",
+"name": "Quiet kettle",
+"note": "Moonmilk, lavender, then honey. No more accidental bubbles.",
+"sequence": [0, 3, 5]
+}, {
+"color": "#a8cbaa",
+"cure": 64,
+"effect": "Cures wild blooming",
+"name": "Petal polish",
+"note": "Moss, honey, dew, then moonmilk. Four pours tame those wandering flowers.",
+"sequence": [4, 5, 2, 0]
+}, {
+"color": "#dba6ab",
+"cure": 3,
+"effect": "Cures fever + shivers",
+"name": "Evening balance",
+"note": "Ember, dew, lavender, then moonmilk. A more complex remedy for mixed temperatures.",
+"sequence": [1, 2, 3, 0]
+}, {"name": "Rosecool tonic", "cure": 1, "sequence": [6, 2, 0], "effect": "Cures fever", "note": "A gentle cooling remedy; safe for floating patients.", "color": "#d4a9ba"}, {"name": "Hearthroot remedy", "cure": 2, "sequence": [7, 5, 0], "effect": "Cures shivers", "note": "Ginger first, honey second, moonmilk last.", "color": "#e1b17c"}, {"name": "Earthbound drops", "cure": 4, "sequence": [9, 11, 0], "effect": "Cures floating", "note": "Silverleaf and burdock settle wandering feet.", "color": "#a6bfa4"}, {"name": "Willowsoft balm", "cure": 8, "sequence": [11, 6, 2], "effect": "Cures stone skin", "note": "Burdock, rosewater, then dew soften enchanted skin.", "color": "#c4b59b"}, {"name": "Star lantern", "stages": [{"name": "Star ink", "sequence": [10, 6]}, {"name": "Moon glaze", "sequence": [0, 5]}], "cure": 16, "sequence": [10, 6, 0], "effect": "Cures invisibility", "note": "Starlight gives shape; rosewater and moonmilk hold it.", "color": "#dfc597"}, {"name": "Stillwater elixir", "stages": [{"name": "Stillwater", "sequence": [8, 2]}, {"name": "Honey cloud", "sequence": [5, 0]}], "cure": 32, "sequence": [8, 2, 5], "effect": "Cures hiccups", "note": "Valerian, dew, then honey quiet the bubbles.", "color": "#a6b9ce"}, {"name": "Garden hush", "stages": [{"name": "Root wash", "sequence": [11, 9]}, {"name": "Rose silk", "sequence": [6, 3]}], "cure": 64, "sequence": [11, 9, 6], "effect": "Cures wild blooming", "note": "Burdock, silverleaf, then rosewater calm runaway flowers.", "color": "#b9c49a"}, {"name": "Twilight harmony", "stages": [{"name": "Warm dusk", "sequence": [7, 6, 5]}, {"name": "Quiet moon", "sequence": [8, 0]}], "cure": 3, "sequence": [7, 6, 8, 0], "effect": "Cures fever + shivers", "note": "Ginger, rosewater, valerian, then moonmilk balance both temperatures.", "color": "#c3abc3"}
+; Roster expansion
+, {"name": "Wakebell tonic", "stages": [{"name": "Morning spark", "sequence": [7, 10]}, {"name": "Golden milk", "sequence": [5, 0, 10]}], "cure": 128, "sequence": [7, 10, 0], "effect": "Cures drowsiness", "note": "Ginger, starlight, then moonmilk lift heavy eyelids.", "color": "#dfbd76"}, {"name": "Steady shore", "stages": [{"name": "Shore anchor", "sequence": [9, 2, 11]}, {"name": "Still mist", "sequence": [8, 3]}], "cure": 256, "sequence": [9, 2, 8], "effect": "Cures dizziness", "note": "Silverleaf, dew, then valerian settle a spinning room.", "color": "#83b4b0"}, {"name": "Spark hush", "stages": [{"name": "Cool embers", "sequence": [6, 4]}, {"name": "Rain veil", "sequence": [2, 0, 3]}], "cure": 512, "sequence": [6, 4, 2], "effect": "Cures spark sneezes", "note": "Rosewater, moss, then dew cool the sparks and calm sneezes.", "color": "#b6b894"}, {"name": "Single voice", "stages": [{"name": "Quiet echo", "sequence": [8, 5, 3]}, {"name": "Leaf chime", "sequence": [9, 2]}], "cure": 1024, "sequence": [8, 5, 9], "effect": "Cures echo voice", "note": "Valerian, honey, then silverleaf bring wandering echoes home.", "color": "#a7b4ce"}, {"name": "Dusk veil", "stages": [{"name": "Dusk ink", "sequence": [11, 3, 6]}, {"name": "Moon shade", "sequence": [0, 4, 5]}], "cure": 2048, "sequence": [11, 3, 6], "effect": "Cures glowing hands", "note": "Burdock, lavender, then rosewater dim an unwanted glow.", "color": "#ba9fb5"}])
+
+

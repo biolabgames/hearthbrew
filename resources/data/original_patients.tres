@@ -1,0 +1,67 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/catalog.gd" id="1_0uthe"]
+
+[resource]
+script = ExtResource("1_0uthe")
+entries = Array[Dictionary]([{
+"allergy": -1,
+"color": "#e4b38f",
+"hint": "A cool draught should help. Start with Moonmilk, then add Dew.",
+"job": "The village postwoman",
+"kind": "human",
+"mask": 1,
+"minimum": 1,
+"name": "Poppy",
+"story": "Seventeen letters before breakfast. Now my cheeks feel like tiny ovens."
+}, {
+"allergy": -1,
+"color": "#b58a66",
+"hint": "Cloud blanket uses the first recipe's ingredients in reverse: Dew, then Moonmilk.",
+"job": "A very chilly village baker",
+"kind": "human",
+"mask": 2,
+"minimum": 1,
+"name": "Pip",
+"story": "I fell asleep in the ice cellar. Even my apron is shivering."
+}, {
+"allergy": -1,
+"color": "#cd9db3",
+"hint": "Two problems need two remedies: Rooted lullaby and Quiet kettle.",
+"job": "An apprentice cloud-witch",
+"kind": "human",
+"mask": 36,
+"minimum": 2,
+"name": "Juniper",
+"story": "My levitation lesson went splendidly. It is the landing and the hiccups I cannot manage."
+}, {
+"allergy": 1,
+"color": "#a5bf78",
+"hint": "Use Softstep syrup and Petal polish. Keep Ember nectar out of the mixtures.",
+"job": "The village rose gardener",
+"kind": "human",
+"mask": 72,
+"minimum": 2,
+"name": "Bramble",
+"story": "A garden charm gave me stone skin and daisies. Ember nectar makes me itch."
+}, {
+"allergy": -1,
+"color": "#b6b0c8",
+"hint": "Lantern cordial will make Mallow visible. Quiet kettle will hush the hiccups.",
+"job": "The disappearing librarian",
+"kind": "human",
+"mask": 48,
+"minimum": 2,
+"name": "Mallow",
+"story": "Nobody sees me, but everyone hears me hiccup in the quiet section."
+}, {
+"allergy": -1,
+"color": "#db9969",
+"hint": "Evening balance cures both temperatures. Rooted lullaby brings Rowan down. A basic Dewdrop while floating adds shivers.",
+"job": "A carpenter caught in a weather spell",
+"kind": "human",
+"mask": 7,
+"minimum": 2,
+"name": "Rowan",
+"story": "Hot cheeks, cold hands, feet in the air. That weather spell tasted terrible."
+}])

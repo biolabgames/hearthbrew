@@ -1,0 +1,8 @@
+[gd_resource type="Theme" format=3 uid="uid://dhm4y8k5naev3"]
+
+[sub_resource type="SystemFont" id="SystemFont_ke0kw"]
+font_names = PackedStringArray("Trebuchet MS", "DejaVu Sans", "sans-serif")
+
+[resource]
+default_font = SubResource("SystemFont_ke0kw")
+default_font_size = 18

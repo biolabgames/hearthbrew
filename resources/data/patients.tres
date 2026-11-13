@@ -1,0 +1,69 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/catalog.gd" id="1_0uthe"]
+
+[resource]
+script = ExtResource("1_0uthe")
+entries = Array[Dictionary]([{
+"allergy": -1,
+"color": "#e4b38f",
+"hint": "A cool draught should help. Start with Moonmilk, then add Dew.",
+"job": "The village postwoman",
+"kind": "human",
+"mask": 1,
+"minimum": 1,
+"name": "Poppy",
+"story": "Seventeen letters before breakfast. Now my cheeks feel like tiny ovens."
+}, {
+"allergy": -1,
+"color": "#b58a66",
+"hint": "Cloud blanket uses the first recipe's ingredients in reverse: Dew, then Moonmilk.",
+"job": "A very chilly village baker",
+"kind": "human",
+"mask": 2,
+"minimum": 1,
+"name": "Pip",
+"story": "I fell asleep in the ice cellar. Even my apron is shivering."
+}, {
+"allergy": -1,
+"color": "#cd9db3",
+"hint": "Two problems need two remedies: Rooted lullaby and Quiet kettle.",
+"job": "An apprentice cloud-witch",
+"kind": "human",
+"mask": 36,
+"minimum": 2,
+"name": "Juniper",
+"story": "My levitation lesson went splendidly. It is the landing and the hiccups I cannot manage."
+}, {
+"allergy": 1,
+"color": "#a5bf78",
+"hint": "Use Softstep syrup and Petal polish. Keep Ember nectar out of the mixtures.",
+"job": "The village rose gardener",
+"kind": "human",
+"mask": 72,
+"minimum": 2,
+"name": "Bramble",
+"story": "A garden charm gave me stone skin and daisies. Ember nectar makes me itch."
+}, {
+"allergy": -1,
+"color": "#b6b0c8",
+"hint": "Lantern cordial will make Mallow visible. Quiet kettle will hush the hiccups.",
+"job": "The disappearing librarian",
+"kind": "human",
+"mask": 48,
+"minimum": 2,
+"name": "Mallow",
+"story": "Nobody sees me, but everyone hears me hiccup in the quiet section."
+}, {
+"allergy": -1,
+"color": "#db9969",
+"hint": "Evening balance cures both temperatures. Rooted lullaby brings Rowan down. A basic Dewdrop while floating adds shivers.",
+"job": "A carpenter caught in a weather spell",
+"kind": "human",
+"mask": 7,
+"minimum": 2,
+"name": "Rowan",
+"story": "Hot cheeks, cold hands, feet in the air. That weather spell tasted terrible."
+}
+; Roster expansion
+, {"allergy": -1, "color": "#c79872", "hint": "Use Wakebell tonic. Find the ingredient order in the recipe book.", "job": "A village beekeeper", "kind": "human", "mask": 128, "minimum": 1, "name": "Hazel", "story": "My bees found a moonflower. Now I cannot stop yawning, even at their best jokes.", "treatments": [16]}, {"allergy": -1, "color": "#9dadaf", "hint": "Use Steady shore. Find the ingredient order in the recipe book.", "job": "The pond ferryman", "kind": "human", "mask": 256, "minimum": 1, "name": "Otis", "story": "The pond keeps turning cartwheels. I would like the shore to hold still.", "treatments": [17]}, {"allergy": -1, "color": "#94b390", "hint": "Use Spark hush. Find the ingredient order in the recipe book.", "job": "A woodland seamstress", "kind": "human", "mask": 512, "minimum": 1, "name": "Fern", "story": "Every sneeze sends a spark through my pincushion. The curtains are getting nervous.", "treatments": [18]}, {"allergy": -1, "color": "#ada0b5", "hint": "Use Single voice. Find the ingredient order in the recipe book.", "job": "The village night watchman", "kind": "human", "mask": 1024, "minimum": 1, "name": "Cedar", "story": "I swallowed a bell charm. Every word comes back to me three times.", "treatments": [19]}, {"allergy": -1, "color": "#c9a18f", "hint": "Use Dusk veil. Find the ingredient order in the recipe book.", "job": "A travelling mapmaker", "kind": "human", "mask": 2048, "minimum": 1, "name": "Tansy", "story": "My hands glow so brightly that I cannot read my own maps after dusk.", "treatments": [20]}, {"allergy": -1, "color": "#c79872", "hint": "Use Wakebell tonic, then Rosecool tonic. Find the ingredient order in the recipe book.", "job": "The mill keeper", "kind": "human", "mask": 129, "minimum": 2, "name": "Hugo", "story": "A sleepy spell drifted through the mill. My forehead is warm and my eyelids weigh a sack each.", "treatments": [16, 8]}, {"allergy": -1, "color": "#9dadaf", "hint": "Use Steady shore, then Cloud blanket. Find the ingredient order in the recipe book.", "job": "A stained-glass maker", "kind": "human", "mask": 258, "minimum": 2, "name": "Iris", "story": "The glass cooled too quickly. Now I am shivering and the room will not stay level.", "treatments": [17, 1]}, {"allergy": -1, "color": "#94b390", "hint": "Use Spark hush, then Rooted lullaby. Find the ingredient order in the recipe book.", "job": "A mushroom forager", "kind": "human", "mask": 516, "minimum": 2, "name": "Alder", "story": "Those silver mushrooms made me float. Their peppery cousins added the sparks.", "treatments": [18, 2]}, {"allergy": -1, "color": "#ada0b5", "hint": "Use Single voice, then Quiet kettle. Find the ingredient order in the recipe book.", "job": "The village choir leader", "kind": "human", "mask": 1056, "minimum": 2, "name": "Clover", "story": "I meant to sing a round. Now my voice echoes and bubbles keep joining in.", "treatments": [19, 5]}, {"allergy": -1, "color": "#c9a18f", "hint": "Use Dusk veil, then Lantern cordial. Find the ingredient order in the recipe book.", "job": "A clockwork repairer", "kind": "human", "mask": 2064, "minimum": 2, "name": "Wren", "story": "An invisibility gear slipped. You cannot see me, but you can see my glowing fingers.", "treatments": [20, 4]}, {"allergy": -1, "color": "#c79872", "hint": "Use Wakebell tonic, then Spark hush. Find the ingredient order in the recipe book.", "job": "The village soup cook", "kind": "human", "mask": 640, "minimum": 2, "name": "Saffron", "story": "A pinch of dream pepper was too much. I keep yawning sparks over the soup.", "treatments": [16, 18]}, {"allergy": -1, "color": "#9dadaf", "hint": "Use Steady shore, then Dusk veil. Find the ingredient order in the recipe book.", "job": "A travelling puppeteer", "kind": "human", "mask": 2304, "minimum": 2, "name": "Felix", "story": "My puppet's spinning spell caught me. Now I glow whenever the floor tilts.", "treatments": [17, 20]}, {"allergy": -1, "color": "#94b390", "hint": "Use Softstep syrup, then Single voice. Find the ingredient order in the recipe book.", "job": "The orchard keeper", "kind": "human", "mask": 1032, "minimum": 2, "name": "Dahlia", "story": "The singing pear tree gave me stone skin and a voice that will not stop answering itself.", "treatments": [3, 19]}, {"allergy": -1, "color": "#ada0b5", "hint": "Use Wakebell tonic, then Dusk veil, then Petal polish. Find the ingredient order in the recipe book.", "job": "An apprentice herbalist", "kind": "human", "mask": 2240, "minimum": 3, "name": "Moss", "story": "I tried a bedtime garden charm. Now I yawn, shine, and grow flowers from my sleeves.", "treatments": [16, 20, 6]}])

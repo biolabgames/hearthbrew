@@ -1,0 +1,202 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/interface.gd" id="1_vg8of"]
+
+[sub_resource type="SystemFont" id="SystemFont_p2ypj"]
+font_names = PackedStringArray("Georgia", "DejaVu Serif", "serif")
+
+[sub_resource type="SystemFont" id="SystemFont_ke0kw"]
+font_names = PackedStringArray("Trebuchet MS", "DejaVu Sans", "sans-serif")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ohpmw"]
+content_margin_left = 8.0
+content_margin_right = 8.0
+bg_color = Color(0.20784314, 0.3647059, 0.29803923, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.34635296, 0.2489412, 0.19482353, 1)
+corner_radius_top_left = 11
+corner_radius_top_right = 11
+corner_radius_bottom_right = 11
+corner_radius_bottom_left = 11
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gih6r"]
+content_margin_left = 8.0
+content_margin_right = 8.0
+bg_color = Color(0.1912157, 0.33552942, 0.2741961, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.34635296, 0.2489412, 0.19482353, 1)
+corner_radius_top_left = 11
+corner_radius_top_right = 11
+corner_radius_bottom_right = 11
+corner_radius_bottom_left = 11
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xgjx1"]
+content_margin_left = 8.0
+content_margin_right = 8.0
+bg_color = Color(0.31082353, 0.44729412, 0.38929412, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.34635296, 0.2489412, 0.19482353, 1)
+corner_radius_top_left = 11
+corner_radius_top_right = 11
+corner_radius_bottom_right = 11
+corner_radius_bottom_left = 11
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rrtff"]
+content_margin_left = 8.0
+content_margin_right = 8.0
+bg_color = Color(0.39313728, 0.50058824, 0.41980395, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.34635296, 0.2489412, 0.19482353, 1)
+corner_radius_top_left = 11
+corner_radius_top_right = 11
+corner_radius_bottom_right = 11
+corner_radius_bottom_left = 11
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rukvd"]
+content_margin_left = 8.0
+content_margin_right = 8.0
+bg_color = Color(0.4392157, 0.58431375, 0.48235294, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.34635296, 0.2489412, 0.19482353, 1)
+corner_radius_top_left = 11
+corner_radius_top_right = 11
+corner_radius_bottom_right = 11
+corner_radius_bottom_left = 11
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8vh56"]
+content_margin_left = 8.0
+content_margin_right = 8.0
+bg_color = Color(0.40407845, 0.5375687, 0.44376472, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.34635296, 0.2489412, 0.19482353, 1)
+corner_radius_top_left = 11
+corner_radius_top_right = 11
+corner_radius_bottom_right = 11
+corner_radius_bottom_left = 11
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nsy5y"]
+content_margin_left = 8.0
+content_margin_right = 8.0
+bg_color = Color(0.5121176, 0.638353, 0.54964703, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.34635296, 0.2489412, 0.19482353, 1)
+corner_radius_top_left = 11
+corner_radius_top_right = 11
+corner_radius_bottom_right = 11
+corner_radius_bottom_left = 11
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gwu11"]
+content_margin_left = 8.0
+content_margin_right = 8.0
+bg_color = Color(0.5203922, 0.6213726, 0.52117646, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.34635296, 0.2489412, 0.19482353, 1)
+corner_radius_top_left = 11
+corner_radius_top_right = 11
+corner_radius_bottom_right = 11
+corner_radius_bottom_left = 11
+
+[node name="Header" type="Control" unique_id=867708882]
+anchors_preset = 0
+mouse_filter = 2
+script = ExtResource("1_vg8of")
+
+[node name="Title" type="Label" parent="." unique_id=2021213828]
+layout_mode = 0
+offset_left = 46.0
+offset_top = 23.0
+offset_right = 616.0
+offset_bottom = 80.0
+theme_override_colors/font_color = Color(0.20784314, 0.3647059, 0.29803923, 1)
+theme_override_fonts/font = SubResource("SystemFont_p2ypj")
+theme_override_font_sizes/font_size = 43
+text = "Hearthbrew"
+autowrap_mode = 3
+
+[node name="Status" type="Label" parent="." unique_id=1419158515]
+layout_mode = 0
+offset_left = 49.0
+offset_top = 80.0
+offset_right = 929.0
+offset_bottom = 117.0
+theme_override_colors/font_color = Color(0.20784314, 0.3647059, 0.29803923, 1)
+theme_override_fonts/font = SubResource("SystemFont_ke0kw")
+theme_override_font_sizes/font_size = 14
+text = "A cool draught should help. Start with Moonmilk, then add Dew."
+autowrap_mode = 3
+
+[node name="Progress" type="Label" parent="." unique_id=1641088698]
+layout_mode = 0
+offset_left = 950.0
+offset_top = 40.0
+offset_right = 1175.0
+offset_bottom = 98.0
+theme_override_colors/font_color = Color(0.20784314, 0.3647059, 0.29803923, 1)
+theme_override_fonts/font = SubResource("SystemFont_ke0kw")
+theme_override_font_sizes/font_size = 18
+text = "Neighbour 1 / 6
+Clinic stars: 0 / 18"
+autowrap_mode = 3
+
+[node name="Speed" type="Button" parent="." unique_id=987973677]
+layout_mode = 0
+offset_left = 1181.0
+offset_top = 46.0
+offset_right = 1289.0
+offset_bottom = 85.0
+focus_mode = 0
+theme_override_colors/font_color = Color(1, 0.94509804, 0.8352941, 1)
+theme_override_colors/font_hover_color = Color(1, 0.94509804, 0.8352941, 1)
+theme_override_colors/font_disabled_color = Color(0.38431373, 0.39607844, 0.30980393, 1)
+theme_override_fonts/font = SubResource("SystemFont_ke0kw")
+theme_override_font_sizes/font_size = 15
+theme_override_styles/normal = SubResource("StyleBoxFlat_ohpmw")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_gih6r")
+theme_override_styles/hover = SubResource("StyleBoxFlat_xgjx1")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_rrtff")
+text = "1x speed"
+
+[node name="Sound" type="Button" parent="." unique_id=741384660]
+layout_mode = 0
+offset_left = 1301.0
+offset_top = 46.0
+offset_right = 1395.0
+offset_bottom = 85.0
+focus_mode = 0
+theme_override_colors/font_color = Color(1, 0.94509804, 0.8352941, 1)
+theme_override_colors/font_hover_color = Color(1, 0.94509804, 0.8352941, 1)
+theme_override_colors/font_disabled_color = Color(0.38431373, 0.39607844, 0.30980393, 1)
+theme_override_fonts/font = SubResource("SystemFont_ke0kw")
+theme_override_font_sizes/font_size = 14
+theme_override_styles/normal = SubResource("StyleBoxFlat_rukvd")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_8vh56")
+theme_override_styles/hover = SubResource("StyleBoxFlat_nsy5y")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_gwu11")
+text = "Sound on"
+
+[connection signal="pressed" from="Speed" to="." method="_on_action" binds= ["toggle_speed", -1]]
+[connection signal="pressed" from="Sound" to="." method="_on_action" binds= ["toggle_mute", -1]]

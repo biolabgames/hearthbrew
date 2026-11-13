@@ -1,0 +1,37 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://scripts/catalog.gd" id="1_41ysj"]
+
+[resource]
+script = ExtResource("1_41ysj")
+entries = Array[Dictionary]([{
+"bit": 1,
+"color": "#cb6652",
+"name": "Fever"
+}, {
+"bit": 2,
+"color": "#4c91ad",
+"name": "Shivers"
+}, {
+"bit": 4,
+"color": "#9673b3",
+"name": "Floating"
+}, {
+"bit": 8,
+"color": "#7f8b72",
+"name": "Stone skin"
+}, {
+"bit": 16,
+"color": "#668d92",
+"name": "Invisible"
+}, {
+"bit": 32,
+"color": "#bc7c9e",
+"name": "Bubble hiccups"
+}, {
+"bit": 64,
+"color": "#639c61",
+"name": "Wild blooming"
+}
+; Roster expansion
+, {"name": "Drowsiness", "bit": 128, "color": "#a18bbd"}, {"name": "Dizziness", "bit": 256, "color": "#75a5aa"}, {"name": "Spark sneezes", "bit": 512, "color": "#d6a55e"}, {"name": "Echo voice", "bit": 1024, "color": "#829bc3"}, {"name": "Glow hands", "bit": 2048, "color": "#d1c27b"}])

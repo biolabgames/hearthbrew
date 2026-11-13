@@ -2340,5 +2340,28 @@
       "packed_cell": 11,
       "rgba_sha256": "5036ac7f04d61d92eb7adb5eebb4f2b3057db514736f3fb91e2fee43fd8465cd"
     }
-  ]
+  ],
+  "arm_redraw": {
+    "date": "2026-11-10",
+    "tool": "built-in imagegen",
+    "changes": "Bare forearms replace baggy sleeves and cuffs; simplified hand shading and detail.",
+    "prompt": "bare-arm-sources/prompt.json",
+    "normalization": "Generated exports normalized offline to 2048x864; native 512x288 playback unchanged.",
+    "atlas_sha256": {
+      "pour-01.png": "36792998970db024586c77942417d151a8fbdbdb3878c4a36118075e3774fe9e",
+      "pour-02.png": "71a181a0479e22f2827c211d26af0f5343874028c3b3f1bc72accf5df76006c1",
+      "pour-03.png": "42f31dca47dbd0f7899a9c3472c54bccb3aadf76d70005dad7cc2e4fedbdc90a",
+      "pour-04.png": "507084ab456bfbcda38be679b07a597e5453dafb2987f80e2389c36eb0ec64f9",
+      "pour-05.png": "ad5f0c7960b3cb9b1f0458afa679ede245d827cb2ebea242705efa20384a4f74",
+      "pour-06.png": "dda45bedcb60865b949e15d9184cebdb2cbd4fbeb967c133fd18bd2bdefc4c28",
+      "stir-01.png": "2d9adbf053f065a5a921e60eaf3711bb1852868a58bf50939bd8ccc9f0c20d02",
+      "stir-02.png": "1038e3bc75ee0663cda7937d9c6f9c2900ffaac29d6e1429f7a44efd0b67727a",
+      "stir-03.png": "17b88b2554fad73136ab416c728809ccf1520126a1f899dd5970490394eb1501",
+      "stir-04.png": "ef3fc85e8e131cb8d4367e35d74b22a00c59a7efe0460bf5fac565cd30de702a",
+      "stir-05.png": "b3b56be571d9413ec4e2d83e2bf89414d21ea4f58f063315ad41a37be5882448",
+      "stir-06.png": "bdae1decd43b9f5c00c24a6631ca9d1554f2eaf8b4696987377504f1cf8ff253",
+      "stir-07.png": "9cf05e71da8180974029e12685c364e82f7707f27addf646d8f4cfb7da42dfab"
+    },
+    "original_metadata": "frames and stir_frames retain the original painted-source crop and hash provenance."
+  }
 }

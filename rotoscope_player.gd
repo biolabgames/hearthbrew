@@ -1,81 +1,28 @@
 extends RefCounted
-
-# Complete first-person hand + forearm frames only. No bones, meshes,
-# rotation, per-part transforms, image stretching or pose interpolation.
-# Motion is baked into complete frames derived from filmed references.
-const MANIFEST_PATH = 'res://assets/rotoscope/manifest.json'
+## Timeline queries for the native SpriteFrames resource. AnimatedSprite2D
+## nodes display the frames; JSON is retained for provenance only.
+const FRAMES = preload('res://resources/hands/recorded_hands.tres')
 var clips = {}
 var errors: Array[String] = []
 var provenance = ''
 
-func load_manifest(path = MANIFEST_PATH):
+func load_manifest():
 	clips.clear()
 	errors.clear()
-	if not FileAccess.file_exists(path):
-		errors.append('Rotoscoped sprite sheets have not been supplied.')
-		return false
-	var file = FileAccess.open(path,FileAccess.READ)
-	var data = JSON.parse_string(file.get_as_text())
-	if not data is Dictionary or data.get('version',0) != 1:
-		errors.append('Expected a version 1 rotoscope manifest.')
-		return false
-	provenance = str(data.get('reference_footage','')).strip_edges()
-	if provenance.is_empty():
-		errors.append('Identify the actual filmed motion used to trace these frames.')
-		return false
-	var definitions = data.get('clips',{})
-	if not definitions is Dictionary:
-		errors.append('Clips must be named manifest entries.')
-		return false
-	for name in definitions:
-		load_clip(str(name),definitions[name])
-	for required in data.get('required_clips',['idle','pour']):
-		if not clips.has(required):
-			errors.append('Missing reference-based animation: '+required)
+	provenance = FRAMES.get_meta('reference_footage','')
+	for name in FRAMES.get_animation_names():
+		var count = FRAMES.get_frame_count(name)
+		if count == 0:
+			errors.append(name+': missing animation frames.')
+			continue
+		clips[name] = {
+			'count':count,'fps':FRAMES.get_animation_speed(name),
+			'loop':FRAMES.get_animation_loop(name),
+			'size':FRAMES.get_frame_texture(name,0).get_size(),
+			'events':FRAMES.get_meta(name+'_events',{}),
+			'source':FRAMES.get_meta(name+'_source','')
+		}
 	return errors.is_empty()
-
-func load_clip(name: String, data):
-	if not data is Dictionary:
-		errors.append(name+': expected clip data.')
-		return
-	var dimensions = data.get('frame_size',[])
-	if not dimensions is Array or dimensions.size() != 2:
-		errors.append(name+': frame_size must be [width,height].')
-		return
-	var size = Vector2i(int(dimensions[0]),int(dimensions[1]))
-	var count = int(data.get('frame_count',0))
-	var columns = int(data.get('columns',0))
-	var fps = float(data.get('fps',0))
-	if size.x <= 0 or size.y <= 0 or count <= 0 or columns <= 0 or fps <= 0:
-		errors.append(name+': invalid frame size, count, columns or frame rate.')
-		return
-	var pages = []
-	var remaining = count
-	for page in data.get('pages',[{'sheet':data.get('sheet',''),'frame_count':count}]):
-		var page_count = int(page.get('frame_count',0))
-		var sheet_path = str(page.get('sheet',''))
-		if not sheet_path.begins_with('res://assets/rotoscope/') or page_count <= 0:
-			errors.append(name+': invalid local atlas page.')
-			return
-		var image = Image.load_from_file(ProjectSettings.globalize_path(sheet_path))
-		var rows = ceili(float(page_count)/columns)
-		if image == null or image.is_empty() or image.get_size() != Vector2i(size.x*columns,size.y*rows):
-			errors.append(name+': atlas dimensions do not match the native frame grid.')
-			return
-		if image.detect_alpha() == Image.ALPHA_NONE:
-			errors.append(name+': a transparent background is required.')
-			return
-		pages.append({'texture':ImageTexture.create_from_image(image),'count':page_count})
-		remaining -= page_count
-	if remaining != 0:
-		errors.append(name+': atlas page counts do not match the clip.')
-		return
-	clips[name] = {
-		'pages':pages,'size':size,
-		'count':count,'columns':columns,'fps':fps,
-		'loop':bool(data.get('loop',false)),
-		'events':data.get('events',{}),'source':str(data.get('source_clip',''))
-	}
 
 func frame_index(name: String, seconds: float):
 	if not clips.has(name):
@@ -86,33 +33,7 @@ func frame_index(name: String, seconds: float):
 
 func source_rect(name: String, seconds: float):
 	var index = frame_index(name,seconds)
-	if index < 0:
-		return Rect2()
-	var clip = clips[name]
-	for page in clip.pages:
-		if index < page.count:
-			break
-		index -= page.count
-	return Rect2(Vector2(index%clip.columns,int(index/clip.columns))*Vector2(clip.size),Vector2(clip.size))
-
-func draw_frame(canvas: CanvasItem, name: String, seconds: float, origin: Vector2):
-	if not clips.has(name):
-		return false
-	var clip = clips[name]
-	var index = frame_index(name,seconds)
-	var texture = clip.pages[0].texture
-	for page in clip.pages:
-		if index < page.count:
-			texture = page.texture
-			break
-		index -= page.count
-	# Source and destination sizes are identical. Frame content already
-	# contains the complete traced reach, grip, wrist and forearm movement.
-	canvas.draw_set_transform( Vector2.ZERO )
-	canvas.draw_texture_rect_region(texture,Rect2(origin,Vector2(clip.size)),source_rect(name,seconds))
-	return true
+	return FRAMES.get_frame_texture(name,index).region if index >= 0 else Rect2()
 
 func event_frame(name: String, event: String):
-	if not clips.has(name):
-		return -1
-	return int(clips[name].events.get(event,-1))
+	return int(clips[name].events.get(event,-1)) if clips.has(name) else -1

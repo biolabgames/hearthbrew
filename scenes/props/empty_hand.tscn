@@ -1,0 +1,34 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/smooth_hand.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/rotoscope/idle.png" id="2"]
+
+[node name="EmptyHand" type="Node2D"]
+script = ExtResource("1")
+texture_filter = 2
+
+[node name="Forearm" type="Polygon2D" parent="."]
+texture = ExtResource("2")
+uv = PackedVector2Array(103,225,116,225,116,246,103,246)
+polygon = PackedVector2Array(-81,71,-44,91,-35,250,-105,250)
+antialiased = true
+
+[node name="ArmShadow" type="Polygon2D" parent="."]
+color = Color(0.46,0.25,0.12,0.14)
+antialiased = true
+
+[node name="ArmOutline" type="Line2D" parent="."]
+width = 1.6
+default_color = Color(0.40,0.28,0.18,0.8)
+antialiased = true
+
+[node name="CarriedProp" type="Node2D" parent="."]
+
+[node name="Graphic" type="Node2D" parent="."]
+
+[node name="Hand" type="Polygon2D" parent="Graphic"]
+texture = ExtResource("2")
+polygon = PackedVector2Array(-72,58,-72,-45,45,-45,45,75,-41,73)
+uv = PackedVector2Array(118,183,118,80,235,80,235,200,149,198)
+antialiased = true
+

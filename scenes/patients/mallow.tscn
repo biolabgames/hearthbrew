@@ -1,0 +1,17 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/patients/layered/mallow-body.png" id="1_n3863"]
+[ext_resource type="Texture2D" path="res://assets/patients/layered/mallow-faces.png" id="2_fk7ll"]
+
+[node name="Mallow" type="Node2D" unique_id=885711340]
+
+[node name="Body" type="Sprite2D" parent="." unique_id=2134432114]
+texture = ExtResource("1_n3863")
+centered = false
+
+[node name="Face" type="Sprite2D" parent="." unique_id=66798014]
+position = Vector2(200, 96)
+texture = ExtResource("2_fk7ll")
+centered = false
+hframes = 3
+vframes = 3

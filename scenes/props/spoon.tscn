@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/props/wooden-spoon.png" id="1"]
+
+[node name="Spoon" type="Node2D"]
+
+[node name="Artwork" type="Sprite2D" parent="."]
+texture_filter = 2
+texture = ExtResource("1")
+centered = false
+offset = Vector2(-1980,-370)
+scale = Vector2(0.078,0.078)
+rotation = -0.563

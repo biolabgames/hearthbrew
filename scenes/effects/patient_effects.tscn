@@ -1,0 +1,37 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/effects/bubble.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/effects/bubble.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/effects/bubble.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/effects/flower.tscn" id="4"]
+[ext_resource type="PackedScene" path="res://scenes/effects/flower.tscn" id="5"]
+[ext_resource type="PackedScene" path="res://scenes/effects/flower.tscn" id="6"]
+[ext_resource type="PackedScene" path="res://scenes/effects/flower.tscn" id="7"]
+
+[node name="PatientEffects" type="Node2D"]
+
+
+[node name="Hiccup0" parent="." instance=ExtResource("1")]
+visible = false
+
+[node name="Hiccup1" parent="." instance=ExtResource("2")]
+visible = false
+
+[node name="Hiccup2" parent="." instance=ExtResource("3")]
+visible = false
+
+[node name="Bloom0" parent="." instance=ExtResource("4")]
+visible = false
+modulate = Color(0.937,0.761,0.557,1)
+
+[node name="Bloom1" parent="." instance=ExtResource("5")]
+visible = false
+modulate = Color(0.937,0.761,0.557,1)
+
+[node name="Bloom2" parent="." instance=ExtResource("6")]
+visible = false
+modulate = Color(0.937,0.761,0.557,1)
+
+[node name="Bloom3" parent="." instance=ExtResource("7")]
+visible = false
+modulate = Color(0.937,0.761,0.557,1)

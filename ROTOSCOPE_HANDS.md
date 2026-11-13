@@ -1,7 +1,37 @@
-# Video-reference hand animation draft
+<!-- Current prop-free full-arm implementation: HANDS_ANIMATION.md. -->
+# Active generated full-arm renders — 10 November 2026
 
-The game now uses rotoscope_player.gd and transparent sheets in assets/rotoscope.
-The old painted_hands.gd and V2 image are historical assets and are not loaded.
+The complete generated hands and forearms are restored together. See HANDS_ANIMATION.md for playback and separate prop interactions.
+
+The active pouring, stirring and idle atlases now use bare forearms in place of the
+baggy green sleeves and cuffs. Hands have smoother shading and reduced wrinkles,
+veins, freckles and nail detail. All 156 action frames were redrawn using built-in
+imagegen. The original painted sources remain available in their existing folders.
+
+Selected new exports and the generation prompt are in assets/rotoscope/bare-arm-sources.
+Run pack_arm_redraw.gd to normalize the exports to the existing 2048 x 864 atlas grid
+and regenerate both six-frame idle sheets. Export normalization happens offline;
+playback still uses complete 512 x 288 frames at their native size. The original
+timing, event frames and drawing origins remain unchanged. Generated redraws may
+vary slightly in anatomy between frames and remain draft artwork.
+
+The subsequent size pass enlarges the smaller left resting arm by 30% and reduces
+the right arm by 20%, with uniform scaling of each complete frame. The left pour
+smoothly returns to 100% while raised to compensate for its closer filmed pose.
+Drawing origins compensate around the left grip and right counter exit. This
+supersedes the original native-size-only presentation described below.
+
+Run capture_arm_redraw.gd for current idle, pour and stir screenshots in
+previews/bare-arms. Older preview folders show the previous sleeve artwork.
+The historical process and original source metadata below describe the earlier art.
+
+# Original video-reference hand animation draft
+
+Playback now uses native AnimatedSprite2D hand scenes and
+resources/hands/recorded_hands.tres. rotoscope_player.gd queries that resource
+for timeline validation. Transparent sheets remain in assets/rotoscope.
+The retired painted_hands.gd pose rig has been removed; the V2 image remains a
+historical asset. See SCENES.md for the current editor workflow.
 
 ## Source and playback
 

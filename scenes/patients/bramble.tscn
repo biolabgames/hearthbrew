@@ -1,0 +1,17 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/patients/layered/bramble-body.png" id="1_hoqfp"]
+[ext_resource type="Texture2D" path="res://assets/patients/layered/bramble-faces.png" id="2_a8gy6"]
+
+[node name="Bramble" type="Node2D" unique_id=1234218255]
+
+[node name="Body" type="Sprite2D" parent="." unique_id=1815258]
+texture = ExtResource("1_hoqfp")
+centered = false
+
+[node name="Face" type="Sprite2D" parent="." unique_id=1802925754]
+position = Vector2(200, 96)
+texture = ExtResource("2_a8gy6")
+centered = false
+hframes = 3
+vframes = 3

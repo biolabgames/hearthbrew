@@ -1,0 +1,35 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/interface.gd" id="1_n5clp"]
+
+[sub_resource type="SystemFont" id="SystemFont_ke0kw"]
+font_names = PackedStringArray("Trebuchet MS", "DejaVu Sans", "sans-serif")
+
+[node name="PhaseDisplay" type="Control" unique_id=1612065845]
+anchors_preset = 0
+mouse_filter = 2
+script = ExtResource("1_n5clp")
+
+[node name="Phase" type="Label" parent="." unique_id=930911779]
+layout_mode = 0
+offset_left = 589.0
+offset_top = 848.0
+offset_right = 877.0
+offset_bottom = 875.0
+theme_override_colors/font_color = Color(1, 0.94509804, 0.8352941, 1)
+theme_override_fonts/font = SubResource("SystemFont_ke0kw")
+theme_override_font_sizes/font_size = 16
+text = "The kettle is waiting."
+autowrap_mode = 3
+
+[node name="KeyboardHelp" type="Label" parent="." unique_id=1448905441]
+layout_mode = 0
+offset_left = 581.0
+offset_top = 878.0
+offset_right = 931.0
+offset_bottom = 896.0
+theme_override_colors/font_color = Color(0.2784314, 0.21960784, 0.15686275, 1)
+theme_override_fonts/font = SubResource("SystemFont_ke0kw")
+theme_override_font_sizes/font_size = 12
+text = "Click bottle: pour    Click bowl: mix    P: pause    M: sound"
+autowrap_mode = 3
